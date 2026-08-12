@@ -1,0 +1,3618 @@
+/* ==========================================================
+   ALINE NEVEN
+   STYLESHEET
+   ----------------------------------------------------------
+   This file controls the appearance of the website.
+
+   HTML = Structure
+   CSS = Appearance
+
+   Every section is explained so you understand WHY it exists.
+========================================================== */
+
+
+/* ==========================================================
+   RESET
+   Removes default browser spacing.
+========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* ==========================================================
+   BODY
+========================================================== */
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    color:white;
+
+    background:#bcaaa4;
+
+    overflow-x:hidden;
+
+}
+
+
+/* ==========================================================
+   HERO BACKGROUND
+
+   Three layers are used:
+
+   Layer 1
+   Radial gradient behind the text.
+
+   Layer 2
+   Soft dark overlay.
+
+   Layer 3
+   Your hero image.
+========================================================== */
+
+.hero-background{
+
+    background-color:#bcaaa4;
+
+    background-image:
+
+        radial-gradient(
+            circle at 35% 50%,
+            rgba(255,255,255,.12),
+            rgba(255,255,255,.05) 35%,
+            rgba(0,0,0,.08) 70%
+        ),
+
+        linear-gradient(
+            rgba(35,30,26,.22),
+            rgba(35,30,26,.22)
+        ),
+
+        url("images/hero.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+
+
+/* ==========================================================
+   LOGO
+========================================================== */
+
+.logo{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:.20em;
+
+    transition:.3s;
+
+}
+
+.logo:hover{
+
+    opacity:.8;
+
+}
+
+
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+nav ul{
+
+    list-style:none;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    opacity:.7;
+
+}
+
+
+/* ==========================================================
+   BOOK BUTTON
+========================================================== */
+
+.book-button{
+
+    margin-left:45px;
+
+    background:white;
+
+    color:black;
+
+    text-decoration:none;
+
+    padding:16px 30px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.book-button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+
+}
+
+
+/* ==========================================================
+   HERO CONTENT
+========================================================== */
+
+
+.hero-content {
+
+    width:100%;
+
+    max-width:760px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+}
+
+/* ==========================================================
+   MAIN HEADING
+
+   Bebas Neue gives an editorial luxury feeling.
+========================================================== */
+
+.hero-content h1{
+
+    font-family:'Bebas Neue',sans-serif;
+
+    font-size:clamp(5rem,10vw,8rem);
+
+    line-height:.88;
+
+    letter-spacing:.05em;
+
+    margin-bottom:35px;
+
+}
+
+
+/* ==========================================================
+   PARAGRAPH
+========================================================== */
+
+.hero-content p {
+
+    max-width:600px;
+
+    margin:0 auto 45px;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:rgba(255,255,255,.92);
+
+}
+
+/* ==========================================================
+   START BUTTON
+========================================================== */
+
+.start-button{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:white;
+
+    color:black;
+
+    font-weight:600;
+
+    font-size:17px;
+
+    padding:22px 55px;
+
+    border-radius:999px;
+
+    transition:.35s;
+
+}
+
+.start-button:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.22);
+
+}
+
+
+/* ==========================================================
+   HERO ANIMATION
+
+   Fade upward when the page loads.
+========================================================== */
+
+.hero-content{
+
+    animation:fadeUp 1.3s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(35px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media(max-width:1100px){
+
+    nav{
+
+        display:none;
+
+    }
+
+    .hero-content{
+
+        margin-left:0;
+
+        text-align:center;
+
+        max-width:100%;
+
+    }
+
+    .hero-content p{
+
+        margin-left:auto;
+
+        margin-right:auto;
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .hero-content h1{
+
+        font-size:4.8rem;
+
+    }
+
+    .hero-content p{
+
+        font-size:18px;
+
+        line-height:1.8;
+
+    }
+
+}
+/* ==========================================================
+   WHO I WORK WITH PAGE
+   ----------------------------------------------------------
+   This page uses a warm editorial background rather than
+   pure white. The aim is to make the page feel connected
+   to the earthy tones of the homepage.
+========================================================== */
+
+
+/* ==========================================================
+   PAGE BACKGROUND
+========================================================== */
+
+.light-page {
+
+    background:#eee9e1;
+
+    color:#25231f;
+
+}
+
+
+/* ==========================================================
+   HEADER
+   ----------------------------------------------------------
+   We use the same background as the page so the navigation
+   feels integrated rather than sitting inside a white bar.
+========================================================== */
+
+.page-header {
+
+    background:#eee9e1;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+}
+
+
+/* ==========================================================
+   HEADER CONTAINER
+========================================================== */
+
+.page-container {
+
+    max-width:1440px;
+
+    margin:0 auto;
+
+    padding:26px 42px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+/* ==========================================================
+   LOGO
+   ----------------------------------------------------------
+   The homepage uses a white logo because it sits on top of
+   the photograph.
+
+   This page has a light background, so the logo becomes dark.
+========================================================== */
+
+.page-header .logo {
+
+    color:#25231f;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:.14em;
+
+    text-decoration:none;
+
+}
+
+.page-header .logo:hover {
+
+    opacity:.65;
+
+}
+
+
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+.page-header nav {
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.page-header ul {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:34px;
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.page-header nav a {
+
+    color:#25231f;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    font-weight:400;
+
+    transition:opacity .3s ease;
+
+}
+
+.page-header nav a:hover {
+
+    opacity:.6;
+
+}
+
+
+/* ==========================================================
+   BOOK A SESSION BUTTON
+   ----------------------------------------------------------
+   The homepage button is white because it sits on a dark
+   photograph.
+
+   On this warm page we use a deep navy/charcoal tone instead.
+========================================================== */
+
+.page-header .book-button {
+
+    margin-left:38px;
+
+    background:#26364f;
+
+    color:#f7f4ef;
+
+    padding:15px 28px;
+
+    border-radius:999px;
+
+    font-size:14px;
+
+    font-weight:500;
+
+    letter-spacing:.01em;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        background .35s ease;
+
+}
+
+.page-header .book-button:hover {
+
+    background:#1d2b40;
+
+    color:#ffffff;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 28px rgba(38,54,79,.18);
+
+    opacity:1;
+
+}
+
+
+/* ==========================================================
+   INTRODUCTION
+   ----------------------------------------------------------
+   Much tighter than the previous version.
+
+   The title sits relatively close to the navigation,
+   creating a stronger editorial hierarchy.
+========================================================== */
+
+.page-intro {
+
+    max-width:780px;
+
+    margin:65px auto 75px;
+
+    padding:0 30px;
+
+    text-align:center;
+
+}
+
+
+/* ==========================================================
+   PAGE TITLE
+========================================================== */
+
+.page-intro h1 {
+
+    font-family:'Bebas Neue',sans-serif;
+
+    font-size:clamp(4rem,6vw,6rem);
+
+    line-height:.95;
+
+    letter-spacing:.045em;
+
+    font-weight:400;
+
+    margin:0 0 28px;
+
+}
+
+
+/* ==========================================================
+   INTRODUCTION TEXT
+========================================================== */
+
+.page-intro p {
+
+    max-width:650px;
+
+    margin:0 auto;
+
+    font-size:18px;
+
+    line-height:1.75;
+
+    font-weight:400;
+
+    color:#4c4944;
+
+}
+
+/* ==========================================================
+   WHO I WORK WITH — ORGANIC IMAGE GRID
+   ----------------------------------------------------------
+   The cards are intentionally NOT designed as boxes.
+
+   Instead, the illustrations sit inside soft, irregular
+   organic shapes. This makes the page feel more tactile,
+   natural and connected to the somatic approach of the
+   practice.
+
+   We keep three columns so the page remains light and
+   editorial rather than making the illustrations too large.
+========================================================== */
+
+
+/* ==========================================================
+   CARD GRID
+========================================================== */
+
+.card-grid {
+
+    max-width:1260px;
+
+    margin:0 auto;
+
+    padding:0 40px 120px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    column-gap:65px;
+
+    row-gap:80px;
+
+}
+
+
+/* ==========================================================
+   INDIVIDUAL WORK CARD
+   ----------------------------------------------------------
+   There is deliberately no background, border or shadow.
+
+   The whitespace itself creates the structure.
+========================================================== */
+
+.work-card {
+
+    display:block;
+
+    text-decoration:none;
+
+    color:#25231f;
+
+    text-align:center;
+
+    transition:transform .45s ease;
+
+}
+
+
+/* ==========================================================
+   ORGANIC IMAGE SHAPE
+   ----------------------------------------------------------
+   Instead of a standard rectangle or perfect circle,
+   the image has slightly uneven curves.
+
+   This creates a softer, more human feeling.
+
+   The exact shape is changed below for different cards.
+========================================================== */
+
+.work-card img {
+
+    display:block;
+
+    width:100%;
+
+    aspect-ratio:1 / 1;
+
+    object-fit:cover;
+
+    border-radius:48% 52% 45% 55% / 52% 45% 55% 48%;
+
+    transition:
+        transform .7s cubic-bezier(.22,1,.36,1),
+        filter .7s ease;
+
+}
+
+
+/* ==========================================================
+   DIFFERENT ORGANIC SHAPES
+   ----------------------------------------------------------
+   We don't want nine identical blobs.
+
+   Slight differences make the layout feel more natural
+   and less computer-generated.
+========================================================== */
+
+.work-card:nth-child(2) img {
+
+    border-radius:54% 46% 52% 48% / 46% 54% 48% 52%;
+
+}
+
+
+.work-card:nth-child(3) img {
+
+    border-radius:46% 54% 48% 52% / 55% 45% 55% 45%;
+
+}
+
+
+.work-card:nth-child(4) img {
+
+    border-radius:52% 48% 55% 45% / 48% 52% 45% 55%;
+
+}
+
+
+.work-card:nth-child(5) img {
+
+    border-radius:45% 55% 50% 50% / 52% 48% 54% 46%;
+
+}
+
+
+.work-card:nth-child(6) img {
+
+    border-radius:55% 45% 47% 53% / 50% 50% 55% 45%;
+
+}
+
+
+.work-card:nth-child(7) img {
+
+    border-radius:48% 52% 54% 46% / 55% 45% 48% 52%;
+
+}
+
+
+.work-card:nth-child(8) img {
+
+    border-radius:53% 47% 46% 54% / 47% 53% 52% 48%;
+
+}
+
+
+.work-card:nth-child(9) img {
+
+    border-radius:45% 55% 52% 48% / 48% 52% 45% 55%;
+
+}
+
+
+/* ==========================================================
+   CARD TITLE
+   ----------------------------------------------------------
+   Small and understated.
+
+   The illustrations remain the visual focus.
+========================================================== */
+
+.work-card h2 {
+
+    font-family:'Bebas Neue',sans-serif;
+
+    font-size:28px;
+
+    font-weight:400;
+
+    letter-spacing:.08em;
+
+    line-height:1;
+
+    margin:23px 0 0;
+
+}
+
+
+/* ==========================================================
+   EXPLORE LINK
+   ----------------------------------------------------------
+   Hidden until the user interacts with the card.
+
+   This keeps the page visually quiet.
+========================================================== */
+
+.work-card span {
+
+    display:block;
+
+    margin-top:9px;
+
+    font-family:'Inter',sans-serif;
+
+    font-size:11px;
+
+    font-weight:500;
+
+    letter-spacing:.12em;
+
+    text-transform:uppercase;
+
+    color:#68635c;
+
+    opacity:0;
+
+    transform:translateY(5px);
+
+    transition:
+        opacity .35s ease,
+        transform .35s ease;
+
+}
+
+
+/* ==========================================================
+   HOVER
+   ----------------------------------------------------------
+   We don't move the entire card dramatically.
+
+   Instead, the image gently grows by only 1.5%.
+
+   This gives the page movement without feeling like a
+   standard website hover animation.
+========================================================== */
+
+.work-card:hover {
+
+    transform:translateY(-3px);
+
+}
+
+
+.work-card:hover img {
+
+    transform:scale(1.015);
+
+    filter:saturate(.96);
+
+}
+
+
+.work-card:hover span {
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+
+/* ==========================================================
+   ACCESSIBILITY
+   ----------------------------------------------------------
+   Keyboard users should receive the same visual feedback
+   as mouse users.
+========================================================== */
+
+.work-card:focus-visible {
+
+    outline:2px solid #26364f;
+
+    outline-offset:8px;
+
+    border-radius:10px;
+
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media(max-width:1000px) {
+
+    .card-grid {
+
+        grid-template-columns:repeat(2,1fr);
+
+        column-gap:45px;
+
+        row-gap:65px;
+
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media(max-width:700px) {
+
+    .card-grid {
+
+        grid-template-columns:1fr;
+
+        padding:0 35px 80px;
+
+        gap:65px;
+
+    }
+
+
+    .work-card h2 {
+
+        font-size:27px;
+
+    }
+
+
+    /* On touchscreens there is no hover state, so we
+       keep the "Explore" label visible. */
+
+    .work-card span {
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+}
+
+/* ==========================================================
+   INDIVIDUAL TOPIC PAGES
+   ----------------------------------------------------------
+   Used for:
+   Grief
+   Anxiety
+   Burnout
+   Perfectionism
+   Chronic Stress
+   Life Transitions
+   People Pleasing
+   High Performers
+   Feeling Disconnected
+========================================================== */
+
+/* ==========================================================
+   PAGE WRAPPER
+========================================================== */
+
+.topic-page {
+
+    max-width:1400px;
+
+    margin:0 auto;
+
+    padding:0 55px 100px;
+
+}
+
+
+/* ==========================================================
+   TOPIC HEADER
+   ----------------------------------------------------------
+   The header is intentionally compact.
+
+   We want the page title to introduce the subject without
+   taking over the page.
+========================================================== */
+
+.topic-header {
+
+    padding:52px 0 30px;
+
+    border-bottom:1px solid rgba(37,35,31,.18);
+
+}
+
+
+/* ==========================================================
+   SMALL EDITORIAL LABEL
+========================================================== */
+
+.topic-label {
+
+    font-size:10px;
+
+    font-weight:500;
+
+    letter-spacing:.16em;
+
+    text-transform:uppercase;
+
+    color:#817b72;
+
+    margin-bottom:12px;
+
+}
+
+
+/* ==========================================================
+   TOPIC TITLE
+   ----------------------------------------------------------
+   Smaller than before so the actual content can move higher
+   on the page.
+========================================================== */
+
+.topic-header h1 {
+
+    font-family:'Bebas Neue',sans-serif;
+
+    font-size:clamp(3.5rem,5vw,5.2rem);
+
+    font-weight:400;
+
+    line-height:.9;
+
+    letter-spacing:.035em;
+
+    margin:0;
+
+}
+
+
+/* ==========================================================
+   MAIN CONTENT
+========================================================== */
+
+.topic-content {
+
+    display:grid;
+
+    grid-template-columns:minmax(0,.9fr) minmax(0,1fr);
+
+    gap:85px;
+
+    align-items:center;
+
+    padding:60px 0 0;
+
+}
+
+
+/* ==========================================================
+   IMAGE CONTAINER
+   ----------------------------------------------------------
+   We give the illustration a maximum width so it doesn't
+   become disproportionately large on wide screens.
+========================================================== */
+
+.topic-image {
+
+    width:100%;
+
+    max-width:540px;
+
+    justify-self:start;
+
+}
+
+
+/* ==========================================================
+   ORGANIC IMAGE
+   ----------------------------------------------------------
+   The image is allowed to maintain its full square
+   composition.
+
+   The organic shape clips the outside edges gently without
+   changing the proportions of the illustration.
+========================================================== */
+
+.topic-image img {
+
+    display:block;
+
+    width:100%;
+
+    height:auto;
+
+    border-radius:
+        48% 52% 46% 54%
+        /
+        54% 46% 54% 46%;
+
+}
+
+
+/* ==========================================================
+   TEXT COLUMN
+========================================================== */
+
+.topic-text {
+
+    max-width:620px;
+
+}
+
+
+/* ==========================================================
+   INTRODUCTORY PARAGRAPH
+========================================================== */
+
+.topic-lead {
+
+    font-size:18px;
+
+    line-height:1.75;
+
+    color:#292723;
+
+    margin:0 0 34px;
+
+}
+
+
+/* ==========================================================
+   SMALL SECTION HEADING
+========================================================== */
+
+.topic-text h2 {
+
+    font-family:'Inter',sans-serif;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    letter-spacing:.01em;
+
+    margin:0 0 14px;
+
+}
+
+
+/* ==========================================================
+   BULLET LIST
+========================================================== */
+
+.topic-text ul {
+
+    margin:0 0 32px;
+
+    padding-left:21px;
+
+}
+
+
+.topic-text li {
+
+    font-size:16px;
+
+    line-height:1.7;
+
+    padding-left:4px;
+
+    margin-bottom:4px;
+
+    color:#403d38;
+
+}
+
+
+/* ==========================================================
+   CLOSING PARAGRAPH
+========================================================== */
+
+.topic-text > p:not(.topic-lead) {
+
+    font-size:16px;
+
+    line-height:1.75;
+
+    color:#403d38;
+
+    margin:0 0 32px;
+
+}
+
+
+/* ==========================================================
+   BOOK A SESSION BUTTON
+========================================================== */
+
+.topic-button {
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    padding:14px 21px;
+
+    background:#26364f;
+
+    color:#f7f4ef;
+
+    text-decoration:none;
+
+    font-size:12px;
+
+    font-weight:500;
+
+    letter-spacing:.04em;
+
+    border-radius:999px;
+
+    transition:
+        background .3s ease,
+        transform .3s ease,
+        box-shadow .3s ease;
+
+}
+
+
+.topic-button span {
+
+    font-size:16px;
+
+    line-height:1;
+
+}
+
+
+.topic-button:hover {
+
+    background:#1d2b40;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 22px rgba(38,54,79,.15);
+
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media(max-width:950px) {
+
+    .topic-page {
+
+        padding:0 35px 80px;
+
+    }
+
+
+    .topic-content {
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+        padding-top:50px;
+
+    }
+
+
+    .topic-image {
+
+        max-width:520px;
+
+        margin:0 auto;
+
+    }
+
+
+    .topic-text {
+
+        max-width:680px;
+
+        margin:0 auto;
+
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media(max-width:700px) {
+
+    .topic-page {
+
+        padding:0 25px 70px;
+
+    }
+
+
+    .topic-header {
+
+        padding:42px 0 27px;
+
+    }
+
+
+    .topic-label {
+
+        font-size:9px;
+
+        margin-bottom:10px;
+
+    }
+
+
+    .topic-header h1 {
+
+        font-size:3.7rem;
+
+    }
+
+
+    .topic-content {
+
+        padding-top:40px;
+
+        gap:42px;
+
+    }
+
+
+    .topic-lead {
+
+        font-size:17px;
+
+        line-height:1.7;
+
+    }
+
+
+    .topic-text li {
+
+        font-size:15px;
+
+    }
+
+}
+/* ==========================================================
+   MY APPROACH PAGE
+========================================================== */
+
+.approach-page {
+
+    background:#f4f0ea;
+
+    color:#262522;
+
+}
+
+
+/* ==========================================================
+   OPENING SECTION
+========================================================== */
+
+.approach-intro {
+
+    padding:78px 60px 90px;
+
+}
+
+
+.approach-intro-inner {
+
+    max-width:1180px;
+
+    margin:0 auto;
+
+    display:grid;
+
+    grid-template-columns:.85fr 1.15fr;
+
+    gap:110px;
+
+    align-items:center;
+
+}
+
+
+/* ==========================================================
+   MAIN OPENING STATEMENT
+========================================================== */
+
+.approach-statement h1 {
+
+    font-family:'Bebas Neue',sans-serif;
+
+    font-size:clamp(3.1rem,4.4vw,4.7rem);
+
+    font-weight:400;
+
+    line-height:.92;
+
+    letter-spacing:.025em;
+
+    margin:0;
+
+}
+
+
+/* ==========================================================
+   INTRODUCTION TEXT
+========================================================== */
+
+.approach-intro-text {
+
+    max-width:600px;
+
+}
+
+
+.approach-intro-text p {
+
+    font-size:17px;
+
+    line-height:1.75;
+
+    margin:0 0 22px;
+
+    color:#403d38;
+
+}
+
+
+.approach-intro-text p:last-child {
+
+    margin-bottom:0;
+
+}
+
+
+.approach-intro-text em {
+
+    font-style:normal;
+
+}
+
+
+.approach-intro-text strong {
+
+    font-weight:600;
+
+}
+
+
+
+/* ==========================================================
+   MY APPROACH SECTION
+========================================================== */
+
+.approach-method {
+
+    background:#faf8f5;
+
+    padding:75px 60px 85px;
+
+}
+
+
+.approach-method-inner {
+
+    max-width:1180px;
+
+    margin:0 auto;
+
+    display:grid;
+
+    grid-template-columns:.8fr 1fr 1fr;
+
+    gap:90px;
+
+    align-items:start;
+
+}
+
+
+/* ==========================================================
+   SECTION HEADING
+========================================================== */
+
+.approach-section-heading h2 {
+
+    font-family:'Bebas Neue',sans-serif;
+
+    font-size:3rem;
+
+    font-weight:400;
+
+    line-height:.9;
+
+    letter-spacing:.03em;
+
+    margin:0;
+
+}
+
+
+/* ==========================================================
+   METHOD TEXT
+========================================================== */
+
+.approach-method-text {
+
+    max-width:420px;
+
+}
+
+
+.approach-method-text p {
+
+    font-size:16px;
+
+    line-height:1.7;
+
+    margin:0 0 20px;
+
+    color:#403d38;
+
+}
+
+
+.approach-method-text p:last-child {
+
+    margin-bottom:0;
+
+}
+
+
+
+/* ==========================================================
+   SESSION TOOLS
+========================================================== */
+
+.approach-tools {
+
+    max-width:330px;
+
+}
+
+
+.approach-tools h3 {
+
+    font-family:'Inter',sans-serif;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin:0 0 16px;
+
+}
+
+
+.approach-tools ul {
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0 0 20px;
+
+}
+
+
+.approach-tools li {
+
+    font-size:15px;
+
+    line-height:1.65;
+
+    margin-bottom:3px;
+
+    color:#403d38;
+
+}
+
+
+.approach-tools li::before {
+
+    content:'·';
+
+    margin-right:10px;
+
+}
+
+
+.approach-note {
+
+    font-size:14px;
+
+    line-height:1.65;
+
+    color:#817b72;
+
+    margin:0;
+
+}
+
+
+
+/* ==========================================================
+   THREE CORE AREAS
+========================================================== */
+
+.approach-cards {
+
+    padding:70px 45px 125px;
+
+}
+
+
+.approach-cards-grid {
+
+    max-width:1450px;
+
+    margin:0 auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    column-gap:115px;
+
+    row-gap:70px;
+
+}
+
+
+
+/* ==========================================================
+   CARD
+========================================================== */
+
+.approach-card {
+
+    min-width:0;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+
+/* ==========================================================
+   IMAGE AREA
+
+   The image area now follows the exact width of the column.
+   This keeps the visual grid clean and prevents the
+   illustrations from drifting into the neighbouring columns.
+========================================================== */
+
+.approach-card-image {
+
+    width:100%;
+
+    aspect-ratio:3 / 2;
+
+    margin:0 0 30px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    overflow:visible;
+
+}
+
+
+
+/* ==========================================================
+   IMAGE
+
+   The artwork is enlarged slightly, but shifted subtly
+   left to compensate for the whitespace built into the
+   illustrations themselves.
+========================================================== */
+
+.approach-card-image img {
+
+    display:block;
+
+    width:110%;
+
+    height:110%;
+
+    object-fit:contain;
+
+    object-position:center center;
+
+    mix-blend-mode:multiply;
+
+    transform:translateX(-6%);
+
+}
+
+
+
+/* ==========================================================
+   CARD CONTENT
+
+   The text remains centred underneath each illustration.
+========================================================== */
+
+.approach-card-content {
+
+    width:100%;
+
+    max-width:390px;
+
+    align-self:center;
+
+}
+
+
+
+/* ==========================================================
+   CARD TITLE
+========================================================== */
+
+.approach-card-content h2 {
+
+    font-family:'Bebas Neue',sans-serif;
+
+    font-size:1.8rem;
+
+    font-weight:400;
+
+    line-height:1;
+
+    letter-spacing:.03em;
+
+    margin:0 0 25px;
+
+}
+
+
+
+/* ==========================================================
+   CARD TEXT
+========================================================== */
+
+.approach-card-content p {
+
+    font-size:15px;
+
+    line-height:1.7;
+
+    color:#403d38;
+
+    margin:0 0 20px;
+
+}
+
+
+.approach-card-content strong {
+
+    font-weight:600;
+
+}
+
+
+
+/* ==========================================================
+   AVAILABLE
+========================================================== */
+
+.approach-available {
+
+    margin-top:28px;
+
+}
+
+
+.approach-available p {
+
+    margin-bottom:8px;
+
+}
+
+
+.approach-available p:last-child {
+
+    line-height:1.9;
+
+}
+
+
+
+/* ==========================================================
+   THIRD COLUMN LIST
+========================================================== */
+
+.approach-card-content ul {
+
+    margin:0;
+
+    padding-left:19px;
+
+}
+
+
+.approach-card-content li {
+
+    font-size:15px;
+
+    line-height:1.65;
+
+    margin-bottom:9px;
+
+    color:#403d38;
+
+}
+
+
+/* ==========================================================
+   FINAL CTA
+========================================================== */
+
+.approach-cta {
+
+    padding:75px 60px 90px;
+
+    background:#d9d6cf;
+
+}
+
+
+.approach-cta-inner {
+
+    max-width:1180px;
+
+    margin:0 auto;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:50px;
+
+}
+
+
+.approach-cta h2 {
+
+    font-family:'Bebas Neue',sans-serif;
+
+    font-size:clamp(2.6rem,3.5vw,3.8rem);
+
+    font-weight:400;
+
+    line-height:.92;
+
+    letter-spacing:.025em;
+
+    margin:0;
+
+}
+
+
+.approach-cta-button {
+
+    flex-shrink:0;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    padding:17px 25px;
+
+    background:#26364f;
+
+    color:#f7f4ef;
+
+    text-decoration:none;
+
+    font-size:12px;
+
+    font-weight:500;
+
+    letter-spacing:.05em;
+
+    border-radius:999px;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background .3s ease;
+
+}
+
+
+.approach-cta-button span {
+
+    font-size:16px;
+
+}
+
+
+.approach-cta-button:hover {
+
+    transform:translateY(-3px);
+
+    background:#1d2b40;
+
+    box-shadow:0 15px 30px rgba(38,54,79,.16);
+
+}
+
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media(max-width:1100px) {
+
+    .approach-intro {
+
+        padding:65px 40px 70px;
+
+    }
+
+
+    .approach-intro-inner {
+
+        grid-template-columns:1fr 1fr;
+
+        gap:60px;
+
+    }
+
+
+    .approach-method {
+
+        padding:65px 40px 70px;
+
+    }
+
+
+    .approach-method-inner {
+
+        grid-template-columns:1fr 1fr;
+
+        gap:55px;
+
+    }
+
+
+    .approach-section-heading {
+
+        grid-column:1 / -1;
+
+    }
+
+
+    .approach-cards {
+
+        padding:55px 30px 90px;
+
+    }
+
+
+    .approach-cards-grid {
+
+        column-gap:60px;
+
+    }
+
+
+    .approach-card-image {
+
+        width:112%;
+
+    }
+
+
+    .approach-cta {
+
+        padding:65px 40px 80px;
+
+    }
+
+}
+
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media(max-width:700px) {
+
+    .approach-intro {
+
+        padding:50px 25px 60px;
+
+    }
+
+
+    .approach-intro-inner {
+
+        grid-template-columns:1fr;
+
+        gap:45px;
+
+    }
+
+
+    .approach-statement h1 {
+
+        font-size:3.7rem;
+
+    }
+
+
+    .approach-intro-text p {
+
+        font-size:16px;
+
+    }
+
+
+    .approach-method {
+
+        padding:55px 25px 65px;
+
+    }
+
+
+    .approach-method-inner {
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+
+    .approach-section-heading {
+
+        grid-column:auto;
+
+    }
+
+
+    .approach-section-heading h2 {
+
+        font-size:3rem;
+
+    }
+
+
+    .approach-tools {
+
+        max-width:none;
+
+    }
+
+
+    .approach-cards {
+
+        padding:50px 25px 70px;
+
+    }
+
+
+    .approach-cards-grid {
+
+        grid-template-columns:1fr;
+
+        gap:70px;
+
+    }
+
+
+    .approach-card-image {
+
+        width:100%;
+
+        margin-bottom:25px;
+
+    }
+
+
+    .approach-card-content {
+
+        max-width:none;
+
+    }
+
+
+    .approach-cta {
+
+        padding:60px 25px 70px;
+
+    }
+
+
+    .approach-cta-inner {
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:35px;
+
+    }
+
+
+    .approach-cta h2 {
+
+        font-size:3.2rem;
+
+    }
+
+}
+/* ==========================================================
+   ABOUT PAGE
+========================================================== */
+
+
+/* ==========================================================
+   GLOBAL
+========================================================== */
+
+.about-page {
+    background: #f4f0ea;
+    color: #262522;
+}
+
+
+/* ==========================================================
+   HERO
+========================================================== */
+
+.about-page .about-hero {
+    position: relative;
+
+    width: 100%;
+    height: 400px;
+
+    overflow: hidden;
+}
+
+
+.about-page .about-hero-image {
+    position: absolute;
+
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.about-page .about-hero-image img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.about-page .about-hero-overlay {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    padding: 40px 5% 36px;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(25,22,18,.52),
+            rgba(25,22,18,0)
+        );
+}
+
+
+.about-page .about-hero-overlay h1 {
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: clamp(2.7rem, 4vw, 4.4rem);
+
+    font-weight: 400;
+
+    line-height: .92;
+
+    letter-spacing: .025em;
+
+    color: #ffffff;
+
+    margin: 0;
+
+    max-width: 1050px;
+}
+
+
+/* ==========================================================
+   MEET ALINE
+========================================================== */
+
+.about-page .about-meet {
+    background: #f4f0ea;
+
+    padding: 105px 60px 115px;
+}
+
+
+.about-page .about-meet-inner {
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 430px 1fr;
+
+    gap: 95px;
+
+    align-items: center;
+}
+
+
+/* ==========================================================
+   MEET ALINE IMAGE
+========================================================== */
+
+.about-page .about-meet-image {
+    width: 100%;
+
+    max-width: 430px;
+
+    aspect-ratio: 4 / 5;
+
+    overflow: hidden;
+
+    border-radius:
+        58% 42% 52% 48%
+        /
+        43% 57% 47% 53%;
+}
+
+
+.about-page .about-meet-image img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: center;
+}
+
+
+/* ==========================================================
+   MEET ALINE TITLE
+
+   Same heading system as My Approach / Who I Work With
+========================================================== */
+
+.about-page .about-meet-content h2 {
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 1.8rem;
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    letter-spacing: .03em;
+
+    color: #262522;
+
+    margin: 0 0 25px;
+}
+
+
+/* ==========================================================
+   MEET ALINE TEXT
+========================================================== */
+
+.about-page .about-meet-content p {
+    font-family: 'Inter', sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 1.7;
+
+    color: #403d38;
+
+    margin: 0 0 19px;
+}
+
+
+.about-page .about-meet-content p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ==========================================================
+   ABOUT — WHAT SETS MY WORK APART
+========================================================== */
+
+.about-page .about-difference {
+    background: #f4f0ea;
+
+    padding: 90px 35px 115px;
+}
+
+
+.about-page .about-difference-inner {
+    width: 100%;
+    max-width: 1500px;
+
+    margin: 0 auto;
+}
+
+
+/* ==========================================================
+   SECTION TITLE
+========================================================== */
+
+.about-page .about-difference-heading {
+    text-align: center;
+
+    margin: 0 0 65px;
+}
+
+
+.about-page .about-difference-heading h2 {
+    font-family: 'Bebas Neue', sans-serif !important;
+
+    font-size: 2.5rem !important;
+
+    font-weight: 400 !important;
+
+    line-height: .95 !important;
+
+    letter-spacing: .03em !important;
+
+    color: #262522 !important;
+
+    margin: 0 !important;
+
+    text-align: center;
+}
+
+
+/* ==========================================================
+   THREE COLUMNS
+========================================================== */
+
+.about-page .about-difference-grid {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    column-gap: 55px;
+
+    align-items: start;
+}
+
+
+.about-page .about-difference-card {
+    min-width: 0;
+
+    text-align: center;
+}
+
+
+/* ==========================================================
+   LARGE ORGANIC IMAGE
+
+   The entire image is clipped into the organic shape.
+========================================================== */
+
+.about-page .about-difference-image {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 500px;
+
+    height: 360px;
+
+    margin: 0 auto 38px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    background: transparent;
+}
+
+
+/* ==========================================================
+   ORGANIC SHAPES
+========================================================== */
+
+.about-page .science-image {
+    border-radius:
+        58% 42% 48% 52%
+        /
+        43% 57% 46% 54%;
+}
+
+
+.about-page .movement-image {
+    border-radius:
+        45% 55% 52% 48%
+        /
+        55% 43% 57% 45%;
+}
+
+
+.about-page .patterns-image {
+    border-radius:
+        52% 48% 61% 39%
+        /
+        45% 57% 43% 55%;
+}
+
+
+/* ==========================================================
+   ILLUSTRATIONS
+
+   Larger than the container so the artwork itself
+   has more visual presence.
+========================================================== */
+
+.about-page .about-difference-image img {
+    display: block;
+
+    width: 115%;
+    height: 115%;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    border: 0;
+
+    background: transparent;
+
+    mix-blend-mode: multiply;
+}
+
+
+/* ==========================================================
+   COLUMN TITLES
+
+   EXACT DISPLAY FONT USED ON THE OTHER PAGES
+========================================================== */
+
+.about-page .about-difference-card h3 {
+    font-family: 'Bebas Neue', sans-serif !important;
+
+    font-size: 1.8rem !important;
+
+    font-weight: 400 !important;
+
+    line-height: 1 !important;
+
+    letter-spacing: .03em !important;
+
+    color: #262522 !important;
+
+    margin: 0 0 25px !important;
+
+    text-align: center !important;
+}
+
+
+/* ==========================================================
+   COLUMN BODY
+========================================================== */
+
+.about-page .about-difference-card p {
+    max-width: 400px;
+
+    margin: 0 auto;
+
+    font-family: 'Inter', sans-serif !important;
+
+    font-size: 15px;
+
+    font-weight: 400 !important;
+
+    line-height: 1.7;
+
+    color: #403d38;
+
+    text-align: center;
+}
+
+
+/* ==========================================================
+   QUALIFICATIONS
+========================================================== */
+
+.about-page .about-qualifications {
+    width: 100%;
+
+    background: #f4f0ea;
+
+    padding: 0 40px 115px;
+
+    box-sizing: border-box;
+}
+
+
+.about-page .about-qualifications-inner {
+    width: 100%;
+
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+/* ==========================================================
+   QUALIFICATIONS TITLE
+========================================================== */
+
+.about-page .about-qualifications h2 {
+    font-family: 'Bebas Neue', sans-serif !important;
+
+    font-size: 2.5rem !important;
+
+    font-weight: 400 !important;
+
+    line-height: .95 !important;
+
+    letter-spacing: .03em !important;
+
+    color: #262522 !important;
+
+    text-align: center !important;
+
+    margin: 0 0 35px !important;
+}
+
+
+/* ==========================================================
+   QUALIFICATIONS LIST
+
+   The whole list is centred underneath the title.
+========================================================== */
+
+.about-page .about-qualifications ul {
+    list-style: none;
+
+    width: 100%;
+
+    max-width: 620px;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    text-align: center;
+}
+
+
+.about-page .about-qualifications li {
+    position: relative;
+
+    margin: 0 0 16px;
+
+    padding: 0;
+
+    font-family: 'Inter', sans-serif !important;
+
+    font-size: 16px;
+
+    font-weight: 400 !important;
+
+    line-height: 1.6;
+
+    color: #403d38;
+
+    text-align: center;
+}
+
+
+/* Small centred bullet before each qualification */
+
+.about-page .about-qualifications li::before {
+    content: '·';
+
+    display: inline-block;
+
+    margin-right: 12px;
+
+    font-size: 20px;
+
+    line-height: 1;
+
+    vertical-align: middle;
+
+    color: #403d38;
+}
+
+
+/* ==========================================================
+   FINAL CTA
+========================================================== */
+
+.about-page .about-cta {
+    width: 100%;
+
+    background: #d9d6cf;
+
+    padding: 70px 60px 80px;
+
+    box-sizing: border-box;
+}
+
+
+.about-page .about-cta-inner {
+    width: 100%;
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 50px;
+}
+
+
+/* ==========================================================
+   CTA TITLE
+
+   Same condensed heading font as the rest of the website.
+========================================================== */
+
+.about-page .about-cta h2 {
+    font-family: 'Bebas Neue', sans-serif !important;
+
+    font-size: clamp(2.5rem, 4vw, 4rem) !important;
+
+    font-weight: 400 !important;
+
+    line-height: .92 !important;
+
+    letter-spacing: .025em !important;
+
+    color: #262522 !important;
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+}
+
+
+/* ==========================================================
+   CTA BUTTON
+========================================================== */
+
+.about-page .about-cta-button {
+    flex-shrink: 0;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 18px 30px;
+
+    background: #26364f;
+
+    color: #f7f4ef !important;
+
+    text-decoration: none !important;
+
+    font-family: 'Inter', sans-serif !important;
+
+    font-size: 12px !important;
+
+    font-weight: 500 !important;
+
+    letter-spacing: .05em;
+
+    border-radius: 999px;
+
+    white-space: nowrap;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background .3s ease;
+}
+
+
+.about-page .about-cta-button:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(38, 54, 79, .15);
+
+    background: #1f2e44;
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 900px) {
+
+    .about-page .about-cta {
+        padding: 60px 40px 70px;
+    }
+
+
+    .about-page .about-cta-inner {
+        max-width: 750px;
+
+        gap: 35px;
+    }
+
+
+    .about-page .about-cta h2 {
+        font-size: 3rem !important;
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 700px) {
+
+    /* QUALIFICATIONS */
+
+    .about-page .about-qualifications {
+        padding: 0 25px 80px;
+    }
+
+
+    .about-page .about-qualifications h2 {
+        font-size: 2.3rem !important;
+    }
+
+
+    .about-page .about-qualifications ul {
+        max-width: 500px;
+    }
+
+
+    .about-page .about-qualifications li {
+        font-size: 15px;
+
+        line-height: 1.6;
+    }
+
+
+    /* CTA */
+
+    .about-page .about-cta {
+        padding: 55px 25px 60px;
+    }
+
+
+    .about-page .about-cta-inner {
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        justify-content: flex-start;
+
+        gap: 30px;
+    }
+
+
+    .about-page .about-cta h2 {
+        font-size: 2.8rem !important;
+    }
+
+
+    .about-page .about-cta-button {
+        padding: 17px 27px;
+    }
+
+}
+/* ======================================================
+   FAQ PAGE
+====================================================== */
+
+.faq-page {
+    background: #f7f4ee;
+    color: #292827;
+}
+
+
+/* ======================================================
+   FAQ MAIN LAYOUT
+====================================================== */
+
+.faq-main {
+    width: 100%;
+    padding: 100px 0 120px;
+}
+
+
+.faq-layout {
+    width: min(1400px, 92%);
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 38% 62%;
+
+    gap: 70px;
+    align-items: start;
+}
+
+
+/* ======================================================
+   LEFT COLUMN
+====================================================== */
+
+.faq-intro {
+    padding-top: 0;
+}
+
+
+.faq-intro h1 {
+    margin: 0 0 45px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 42px;
+    line-height: 0.95;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+
+/* ======================================================
+   FAQ IMAGE
+====================================================== */
+
+.faq-image {
+    width: 100%;
+    max-width: 520px;
+
+    margin: 0 auto;
+
+    /* Organic shape */
+    border-radius: 48% 52% 43% 57% / 42% 46% 54% 58%;
+
+    overflow: hidden;
+}
+
+
+.faq-image img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+}
+
+
+/* ======================================================
+   FAQ LIST
+====================================================== */
+
+.faq-list {
+    width: 100%;
+}
+
+
+.faq-item {
+    border-top: 1px solid #292827;
+}
+
+
+.faq-item:last-child {
+    border-bottom: 1px solid #292827;
+}
+
+
+/* ======================================================
+   QUESTION
+====================================================== */
+
+.faq-item summary {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 28px 0;
+
+    cursor: pointer;
+}
+
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+
+.faq-item summary span:first-child {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    line-height: 1.05;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+
+.faq-icon {
+    flex-shrink: 0;
+
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+
+    width: 20px;
+    text-align: center;
+}
+
+
+/* ======================================================
+   ANSWER
+====================================================== */
+
+.faq-answer {
+    padding: 0 45px 28px 0;
+}
+
+
+.faq-answer p {
+    margin: 0 0 20px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    font-weight: 400;
+}
+
+
+.faq-answer p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ======================================================
+   OPEN / CLOSED ICON
+====================================================== */
+
+.faq-item .faq-icon {
+    font-size: 0;
+}
+
+
+.faq-item .faq-icon::after {
+    content: "+";
+
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.faq-item[open] .faq-icon::after {
+    content: "−";
+}
+
+
+/* ======================================================
+   FINAL CTA
+====================================================== */
+
+.faq-cta {
+    width: 100%;
+
+    background: #dedbd4;
+
+    padding: 80px 0;
+}
+
+
+.faq-cta-inner {
+    width: min(1400px, 92%);
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 40px;
+}
+
+
+.faq-cta h2 {
+    margin: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 52px;
+    line-height: 0.95;
+    font-weight: 400;
+}
+
+
+.faq-cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 220px;
+    padding: 20px 32px;
+
+    border-radius: 40px;
+
+    background: #263b59;
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+    transition: opacity 0.2s ease;
+}
+
+
+.faq-cta-button:hover {
+    opacity: 0.85;
+}
+
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width: 900px) {
+
+    .faq-main {
+        padding: 70px 0 80px;
+    }
+
+
+    .faq-layout {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+
+    .faq-intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        align-items: center;
+    }
+
+
+    .faq-intro h1 {
+        margin: 0;
+        font-size: 38px;
+    }
+
+
+    .faq-image {
+        width: 100%;
+        max-width: none;
+        margin-left: 0;
+    }
+
+
+    .faq-cta-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .faq-main {
+        padding: 55px 0 65px;
+    }
+
+
+    .faq-layout {
+        width: 88%;
+    }
+
+
+    .faq-intro {
+        display: block;
+    }
+
+
+    .faq-intro h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+
+    .faq-image {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+
+    .faq-item summary {
+        padding: 23px 0;
+    }
+
+
+    .faq-item summary span:first-child {
+        font-size: 21px;
+    }
+
+
+    .faq-answer {
+        padding-right: 15px;
+        padding-bottom: 25px;
+    }
+
+
+    .faq-answer p {
+        font-size: 16px;
+    }
+
+
+    .faq-cta {
+        padding: 60px 0;
+    }
+
+
+    .faq-cta h2 {
+        font-size: 42px;
+    }
+
+
+    .faq-cta-button {
+        width: 100%;
+    }
+
+}
+/* ======================================================
+   BOOK A SESSION PAGE
+====================================================== */
+
+.booking-page {
+    background: #f7f4ee;
+    color: #292827;
+}
+
+
+/* ======================================================
+   INTRO
+====================================================== */
+
+.booking-main {
+    width: 100%;
+}
+
+
+.booking-intro {
+    padding: 90px 0 85px;
+}
+
+
+.booking-intro-inner {
+    width: min(1180px, 88%);
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+
+    gap: 100px;
+    align-items: center;
+}
+
+
+.booking-heading h1 {
+    margin: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(4rem, 6vw, 6.2rem);
+    line-height: .88;
+    font-weight: 400;
+    letter-spacing: .02em;
+}
+
+
+.booking-intro-text {
+    max-width: 600px;
+}
+
+
+.booking-intro-text p {
+    margin: 0 0 22px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 400;
+
+    color: #403d38;
+}
+
+
+.booking-intro-text p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ======================================================
+   BOOKING OPTIONS
+====================================================== */
+
+.booking-options {
+    padding: 30px 0 120px;
+}
+
+
+.booking-options-grid {
+    width: min(1180px, 88%);
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 90px;
+}
+
+
+/* ======================================================
+   OPTION
+====================================================== */
+
+.booking-option {
+    padding: 45px 45px 50px;
+
+    background: #faf8f5;
+
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.booking-option-number {
+    margin-bottom: 28px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .08em;
+
+    color: #817b72;
+}
+
+
+.booking-option h2 {
+    margin: 0 0 12px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.3rem;
+    line-height: .95;
+    font-weight: 400;
+    letter-spacing: .02em;
+}
+
+
+.booking-option-duration {
+    margin: 0 0 28px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .07em;
+
+    color: #817b72;
+}
+
+
+.booking-option > p:not(.booking-option-duration) {
+    margin: 0 0 18px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+
+    color: #403d38;
+}
+
+
+.booking-option-button {
+    margin-top: 15px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 16px 23px;
+
+    background: #26364f;
+    color: #f7f4ee;
+
+    text-decoration: none;
+
+    border-radius: 999px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .04em;
+
+    transition:
+        transform .25s ease,
+        background .25s ease;
+}
+
+
+.booking-option-button span {
+    font-size: 16px;
+}
+
+
+.booking-option-button:hover {
+    transform: translateY(-2px);
+    background: #1d2b40;
+}
+
+
+/* ======================================================
+   WHAT TO EXPECT
+====================================================== */
+
+.booking-expect {
+    padding: 95px 0 110px;
+
+    background: #faf8f5;
+}
+
+
+.booking-expect-inner {
+    width: min(1180px, 88%);
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: .75fr 1.25fr;
+
+    gap: 100px;
+    align-items: start;
+}
+
+
+.booking-expect-heading h2 {
+    margin: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.4rem;
+    line-height: .9;
+    font-weight: 400;
+    letter-spacing: .02em;
+}
+
+
+.booking-expect-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 45px;
+}
+
+
+.booking-expect-item h3 {
+    margin: 0 0 15px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.45rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+
+.booking-expect-item p {
+    margin: 0;
+
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 400;
+
+    color: #403d38;
+}
+
+
+/* ======================================================
+   FINAL NOTE
+====================================================== */
+
+.booking-note {
+    padding: 55px 0 70px;
+}
+
+
+.booking-note-inner {
+    width: min(1180px, 88%);
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 40px;
+}
+
+
+.booking-note p {
+    margin: 0;
+
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+
+    color: #817b72;
+}
+
+
+.booking-note a {
+    flex-shrink: 0;
+
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .05em;
+
+    color: #26364f;
+    text-decoration: none;
+}
+
+
+.booking-note a:hover {
+    text-decoration: underline;
+}
+
+
+/* ======================================================
+   TABLET
+====================================================== */
+
+@media (max-width: 1000px) {
+
+    .booking-intro-inner {
+        grid-template-columns: 1fr 1fr;
+        gap: 55px;
+    }
+
+
+    .booking-options-grid {
+        gap: 45px;
+    }
+
+
+    .booking-option {
+        padding: 35px;
+    }
+
+
+    .booking-expect-inner {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+}
+
+
+/* ======================================================
+   MOBILE
+====================================================== */
+
+@media (max-width: 700px) {
+
+    .booking-intro {
+        padding: 55px 0 65px;
+    }
+
+
+    .booking-intro-inner {
+        width: 88%;
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+
+    .booking-heading h1 {
+        font-size: 4rem;
+    }
+
+
+    .booking-intro-text p {
+        font-size: 16px;
+    }
+
+
+    .booking-options {
+        padding: 10px 0 75px;
+    }
+
+
+    .booking-options-grid {
+        width: 88%;
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+
+    .booking-option {
+        padding: 32px 28px 38px;
+    }
+
+
+    .booking-option h2 {
+        font-size: 2.1rem;
+    }
+
+
+    .booking-expect {
+        padding: 65px 0 75px;
+    }
+
+
+    .booking-expect-inner {
+        width: 88%;
+        gap: 40px;
+    }
+
+
+    .booking-expect-heading h2 {
+        font-size: 3rem;
+    }
+
+
+    .booking-expect-content {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+
+    .booking-note {
+        padding: 45px 0 55px;
+    }
+
+
+    .booking-note-inner {
+        width: 88%;
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 20px;
+    }
+
+}
