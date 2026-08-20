@@ -4,30 +4,33 @@
 <head>
 
     <!-- ======================================================
-        EN/NL LANGUAGE SWITCHER
+         EN/NL LANGUAGE SWITCHER
     ====================================================== -->
-<link rel="alternate"
-      hreflang="en"
-      href="https://alineneven.com/book-a-session.html">
 
-<link rel="alternate"
-      hreflang="nl"
-      href="https://alineneven.com/nl/afspraak-maken.html">
+    <link rel="alternate"
+          hreflang="en"
+          href="https://alineneven.com/book-a-session.html">
 
-<link rel="alternate"
-      hreflang="x-default"
-      href="https://alineneven.com/book-a-session.html">
+    <link rel="alternate"
+          hreflang="nl"
+          href="https://alineneven.com/nl/afspraak-maken.html">
+
+    <link rel="alternate"
+          hreflang="x-default"
+          href="https://alineneven.com/book-a-session.html">
+
 
     <!-- ======================================================
-        FAVICON
+         FAVICON
     ====================================================== -->
 
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="manifest" href="site.webmanifest">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+
 
     <!-- ======================================================
          BASIC PAGE INFORMATION
@@ -119,6 +122,85 @@
     <link rel="stylesheet"
           href="styles.css">
 
+
+    <!-- ======================================================
+         STRUCTURED DATA / JSON-LD
+    ====================================================== -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        {
+          "@type": "WebPage",
+          "@id": "https://alineneven.com/book-a-session.html#webpage",
+          "url": "https://alineneven.com/book-a-session.html",
+          "name": "Book a Somatic Counselling Session in Amsterdam | Aline Neven",
+          "description": "Book a free 30-minute discovery call or a 75-minute trauma-informed somatic counselling session with Aline Neven in Amsterdam or online.",
+          "isPartOf": {
+            "@id": "https://alineneven.com/#website"
+          },
+          "about": {
+            "@id": "https://alineneven.com/book-a-session.html#service"
+          },
+          "inLanguage": "en-GB"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://alineneven.com/book-a-session.html#service",
+          "name": "Trauma-Informed Somatic Counselling",
+          "description": "75-minute individual trauma-informed somatic counselling sessions in Amsterdam or online.",
+          "provider": {
+            "@id": "https://alineneven.com/#person"
+          },
+          "serviceType": "Trauma-informed somatic counselling",
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Amsterdam"
+            },
+            {
+              "@type": "Place",
+              "name": "Online"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "65",
+            "priceCurrency": "EUR",
+            "description": "75-minute individual somatic counselling session"
+          },
+          "availableLanguage": [
+            "English",
+            "Dutch"
+          ]
+        },
+
+        {
+          "@type": "Person",
+          "@id": "https://alineneven.com/#person",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/about.html",
+          "jobTitle": "Trauma-Informed Somatic Counsellor",
+          "worksFor": {
+            "@id": "https://alineneven.com/#organization"
+          }
+        },
+
+        {
+          "@type": "Organization",
+          "@id": "https://alineneven.com/#organization",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/",
+          "description": "Trauma-informed somatic counselling in Amsterdam and online."
+        }
+
+      ]
+    }
+    </script>
+
 </head>
 
 
@@ -133,6 +215,9 @@
 
         <div class="page-container">
 
+
+            <!-- LOGO -->
+
             <a href="index.html"
                class="logo">
 
@@ -146,37 +231,63 @@
                 <ul>
 
                     <li>
+
                         <a href="who-i-work-with.html">
+
                             Who I Work With
+
                         </a>
+
                     </li>
 
+
                     <li>
+
                         <a href="my-approach.html">
+
                             My Approach
+
                         </a>
+
                     </li>
 
+
                     <li>
+
                         <a href="about.html">
+
                             About
+
                         </a>
+
                     </li>
 
+
                     <li>
+
                         <a href="faq.html">
+
                             FAQ
+
                         </a>
+
                     </li>
 
+
                     <li>
+
                         <a href="resources.html">
+
                             Resources
+
                         </a>
+
                     </li>
 
                 </ul>
 
+
+                <!-- BOOK BUTTON -->
 
                 <a href="book-a-session.html"
                    class="book-button active">
@@ -185,29 +296,33 @@
 
                 </a>
 
+
                 <!-- LANGUAGE SWITCHER -->
 
-<div class="language-switcher">
+                <div class="language-switcher">
 
-    <a href="book-a-session.html"
-       class="active">
-        EN
-    </a>
+                    <a href="book-a-session.html"
+                       class="active">
 
-    <span>|</span>
+                        EN
 
-    <a href="nl/afspraak-maken.html">
-        NL
-    </a>
+                    </a>
 
-</div>
+                    <span>|</span>
+
+                    <a href="nl/afspraak-maken.html">
+
+                        NL
+
+                    </a>
+
+                </div>
 
             </nav>
 
         </div>
 
     </header>
-
 
 
     <!-- ======================================================
@@ -260,13 +375,11 @@
         </section>
 
 
-
         <!-- ======================================================
              BOOKING OPTIONS
         ====================================================== -->
 
         <section class="booking-options">
-
 
             <div class="booking-options-grid">
 
@@ -276,7 +389,6 @@
                 ================================================== -->
 
                 <article class="booking-option">
-
 
                     <div class="booking-option-number">
 
@@ -333,13 +445,11 @@
                 </article>
 
 
-
                 <!-- ==================================================
                      INDIVIDUAL SESSION
                 ================================================== -->
 
                 <article class="booking-option">
-
 
                     <div class="booking-option-number">
 
@@ -399,9 +509,7 @@
 
             </div>
 
-
         </section>
-
 
 
         <!-- ======================================================
@@ -409,7 +517,6 @@
         ====================================================== -->
 
         <section class="booking-expect">
-
 
             <div class="booking-expect-inner">
 
@@ -450,7 +557,6 @@
                     </div>
 
 
-
                     <div class="booking-expect-item">
 
                         <h3>
@@ -470,7 +576,6 @@
                         </p>
 
                     </div>
-
 
 
                     <div class="booking-expect-item">
@@ -499,7 +604,6 @@
             </div>
 
         </section>
-
 
 
         <!-- ======================================================

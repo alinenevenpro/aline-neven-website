@@ -3,29 +3,53 @@
 
 <head>
 
-           <!-- ======================================================
-        EN/NL LANGUAGE SWITCHER
-    ====================================================== -->
-<link rel="alternate"
-      hreflang="en"
-      href="https://alineneven.com/my-approach.html">
-
-<link rel="alternate"
-      hreflang="nl"
-      href="https://alineneven.com/nl/mijn-aanpak.html">
-
-<link rel="alternate"
-      hreflang="x-default"
-      href="https://alineneven.com/my-approach.html">
     <!-- ======================================================
-        FAVICON
+         EN/NL LANGUAGE SWITCHER
     ====================================================== -->
-    <link rel="icon" href="../favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-<link rel="manifest" href="../site.webmanifest">
+
+    <link rel="alternate"
+          hreflang="en"
+          href="https://alineneven.com/my-approach.html">
+
+    <link rel="alternate"
+          hreflang="nl"
+          href="https://alineneven.com/nl/mijn-aanpak.html">
+
+    <link rel="alternate"
+          hreflang="x-default"
+          href="https://alineneven.com/my-approach.html">
+
+
+    <!-- ======================================================
+         FAVICON
+    ====================================================== -->
+
+    <link rel="icon"
+          href="../favicon.ico"
+          sizes="any">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="../favicon-16x16.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="../favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="48x48"
+          href="../favicon-48x48.png">
+
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="../apple-touch-icon.png">
+
+    <link rel="manifest"
+          href="../site.webmanifest">
+
 
     <!-- ======================================================
          BASIS PAGINA-INFORMATIE
@@ -135,6 +159,69 @@
     <link rel="stylesheet"
           href="../styles.css">
 
+
+    <!-- ======================================================
+         STRUCTURED DATA / JSON-LD
+    ====================================================== -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        {
+          "@type": "WebPage",
+          "@id": "https://alineneven.com/nl/mijn-aanpak.html#webpage",
+          "url": "https://alineneven.com/nl/mijn-aanpak.html",
+          "name": "Traumabewuste somatische therapie in Amsterdam | Mijn aanpak | Aline Neven",
+          "description": "Ontdek Aline Nevens aanpak van traumabewuste somatische therapie in Amsterdam en online, waarin gesprek, lichaamsbewustzijn en beweging samenkomen.",
+          "isPartOf": {
+            "@id": "https://alineneven.com/#website"
+          },
+          "about": {
+            "@id": "https://alineneven.com/nl/mijn-aanpak.html#service"
+          },
+          "inLanguage": "nl-NL"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://alineneven.com/nl/mijn-aanpak.html#service",
+          "name": "Traumabewuste somatische begeleiding",
+          "description": "Traumabewuste somatische begeleiding waarin gesprek, lichaamsbewustzijn en beweging samenkomen om zelfinzicht, regulatie, veerkracht en duurzame verandering te ondersteunen.",
+          "provider": {
+            "@id": "https://alineneven.com/#person"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Amsterdam"
+          },
+          "serviceType": "Traumabewuste somatische begeleiding"
+        },
+
+        {
+          "@type": "Person",
+          "@id": "https://alineneven.com/#person",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/nl/over-mij.html",
+          "jobTitle": "Traumabewust somatisch counsellor",
+          "worksFor": {
+            "@id": "https://alineneven.com/#organization"
+          }
+        },
+
+        {
+          "@type": "Organization",
+          "@id": "https://alineneven.com/#organization",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/",
+          "description": "Traumabewuste somatische begeleiding in Amsterdam en online."
+        }
+
+      ]
+    }
+    </script>
+
 </head>
 
 
@@ -142,7 +229,7 @@
 
 
     <!-- ======================================================
-         NAVIGATION
+         NAVIGATIE
     ====================================================== -->
 
     <header class="page-header">
@@ -160,49 +247,71 @@
             </a>
 
 
+            <!-- NAVIGATIE -->
+
             <nav>
 
                 <ul>
 
                     <li>
+
                         <a href="wie-ik-help.html">
+
                             Wie ik help
+
                         </a>
+
                     </li>
 
 
                     <li>
+
                         <a href="mijn-aanpak.html"
                            class="active">
+
                             Mijn aanpak
+
                         </a>
+
                     </li>
 
 
                     <li>
+
                         <a href="over-mij.html">
+
                             Over mij
+
                         </a>
+
                     </li>
 
 
                     <li>
+
                         <a href="faq.html">
+
                             FAQ
+
                         </a>
+
                     </li>
 
 
                     <li>
+
                         <a href="artikelen.html">
+
                             Artikelen
+
                         </a>
+
                     </li>
 
                 </ul>
 
 
-                <!-- BOOK BUTTON -->
+                <!-- AFSPRAAK MAKEN -->
 
                 <a href="afspraak-maken.html"
                    class="book-button">
@@ -217,14 +326,18 @@
                 <div class="language-switcher">
 
                     <a href="../my-approach.html">
+
                         EN
+
                     </a>
 
                     <span>|</span>
 
                     <a href="mijn-aanpak.html"
                        class="active">
+
                         NL
+
                     </a>
 
                 </div>
@@ -234,7 +347,6 @@
         </div>
 
     </header>
-
 
 
     <!-- ======================================================
@@ -253,8 +365,6 @@
             <div class="approach-intro-inner">
 
 
-                <!-- Main statement -->
-
                 <div class="approach-statement">
 
                     <h1>
@@ -268,9 +378,6 @@
 
                 </div>
 
-
-
-                <!-- Introduction -->
 
                 <div class="approach-intro-text">
 
@@ -311,7 +418,6 @@
         </section>
 
 
-
         <!-- ==================================================
              MIJN AANPAK
         ================================================== -->
@@ -320,8 +426,6 @@
 
             <div class="approach-method-inner">
 
-
-                <!-- Section heading -->
 
                 <div class="approach-section-heading">
 
@@ -335,9 +439,6 @@
 
                 </div>
 
-
-
-                <!-- Main explanation -->
 
                 <div class="approach-method-text">
 
@@ -368,9 +469,6 @@
 
                 </div>
 
-
-
-                <!-- What sessions may include -->
 
                 <div class="approach-tools">
 
@@ -417,7 +515,6 @@
             </div>
 
         </section>
-
 
 
         <!-- ==================================================
@@ -488,22 +585,29 @@
                             </p>
 
                         </div>
-<a href="online-somatische-begeleiding.html"
-   class="approach-online-cta">
 
-    <strong>
-        BENIEUWD NAAR ONLINE BEGELEIDING? <span>→</span>
-    </strong>
 
-    <span>
-        Ontdek hoe een online sessie eruitziet.
-    </span>
+                        <a href="online-somatische-begeleiding.html"
+                           class="approach-online-cta">
 
-</a>
+                            <strong>
+
+                                BENIEUWD NAAR ONLINE BEGELEIDING?
+                                <span>→</span>
+
+                            </strong>
+
+                            <span>
+
+                                Ontdek hoe een online sessie eruitziet.
+
+                            </span>
+
+                        </a>
+
                     </div>
 
                 </article>
-
 
 
                 <!-- ==================================================
@@ -557,7 +661,6 @@
                     </div>
 
                 </article>
-
 
 
                 <!-- ==================================================
@@ -620,7 +723,6 @@
         </section>
 
 
-
         <!-- ==================================================
              FINAL CTA
         ================================================== -->
@@ -657,7 +759,6 @@
 
 
     </main>
-
 
 
     <script src="../app.js"></script>

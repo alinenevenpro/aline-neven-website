@@ -3,31 +3,53 @@
 
 <head>
 
-      <!-- ======================================================
-        EN/NL LANGUAGE SWITCHER
-    ====================================================== -->
-<link rel="alternate"
-      hreflang="en"
-      href="https://alineneven.com/about.html">
-
-<link rel="alternate"
-      hreflang="nl"
-      href="https://alineneven.com/nl/over-mij.html">
-
-<link rel="alternate"
-      hreflang="x-default"
-      href="https://alineneven.com/about.html">
-
-        <!-- ======================================================
-        FAVICON
+    <!-- ======================================================
+         EN/NL LANGUAGE SWITCHER
     ====================================================== -->
 
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="manifest" href="site.webmanifest">
+    <link rel="alternate"
+          hreflang="en"
+          href="https://alineneven.com/about.html">
+
+    <link rel="alternate"
+          hreflang="nl"
+          href="https://alineneven.com/nl/over-mij.html">
+
+    <link rel="alternate"
+          hreflang="x-default"
+          href="https://alineneven.com/about.html">
+
+
+    <!-- ======================================================
+         FAVICON
+    ====================================================== -->
+
+    <link rel="icon"
+          href="favicon.ico"
+          sizes="any">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="48x48"
+          href="favicon-48x48.png">
+
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="apple-touch-icon.png">
+
+    <link rel="manifest"
+          href="site.webmanifest">
+
 
     <!-- ======================================================
          BASIC PAGE INFORMATION
@@ -136,440 +158,479 @@
     <link rel="stylesheet"
           href="styles.css">
 
+
+    <!-- ======================================================
+         STRUCTURED DATA / JSON-LD
+    ====================================================== -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        {
+          "@type": "ProfilePage",
+          "@id": "https://alineneven.com/about.html#webpage",
+          "url": "https://alineneven.com/about.html",
+          "name": "About Aline Neven | Somatic Therapy & Counselling in Amsterdam",
+          "description": "Meet Aline Neven, a trauma-informed somatic counsellor offering somatic therapy and counselling in Amsterdam and online, combining body awareness, movement and conversation.",
+          "isPartOf": {
+            "@id": "https://alineneven.com/#website"
+          },
+          "mainEntity": {
+            "@id": "https://alineneven.com/#person"
+          },
+          "inLanguage": "en-GB"
+        },
+
+        {
+          "@type": "Person",
+          "@id": "https://alineneven.com/#person",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/about.html",
+          "jobTitle": "Trauma-Informed Somatic Counsellor",
+          "description": "Trauma-informed somatic counsellor offering counselling and somatic therapy in Amsterdam and online.",
+          "worksFor": {
+            "@id": "https://alineneven.com/#organization"
+          }
+        },
+
+        {
+          "@type": "Organization",
+          "@id": "https://alineneven.com/#organization",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/",
+          "description": "Trauma-informed somatic counselling in Amsterdam and online."
+        }
+
+      ]
+    }
+    </script>
+
 </head>
 
 
 <body class="about-page">
 
 
-<!-- ======================================================
-     NAVIGATION
-====================================================== -->
+    <!-- ======================================================
+         NAVIGATION
+    ====================================================== -->
 
-<header class="page-header">
+    <header class="page-header">
 
-    <div class="page-container">
-
-
-        <!-- LOGO -->
-
-        <a href="index.html"
-           class="logo">
-
-            ALINE NEVEN
-
-        </a>
+        <div class="page-container">
 
 
-        <!-- NAVIGATION -->
+            <!-- LOGO -->
 
-        <nav>
+            <a href="index.html"
+               class="logo">
 
-            <ul>
+                ALINE NEVEN
 
-                <li>
-
-                    <a href="who-i-work-with.html">
-
-                        Who I Work With
-
-                    </a>
-
-                </li>
+            </a>
 
 
-                <li>
+            <!-- NAVIGATION -->
 
-                    <a href="my-approach.html">
+            <nav>
 
-                        My Approach
+                <ul>
 
-                    </a>
+                    <li>
 
-                </li>
+                        <a href="who-i-work-with.html">
+
+                            Who I Work With
+
+                        </a>
+
+                    </li>
 
 
-                <li>
+                    <li>
+
+                        <a href="my-approach.html">
+
+                            My Approach
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="about.html"
+                           class="active">
+
+                            About
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="faq.html">
+
+                            FAQ
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="resources.html">
+
+                            Resources
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+
+                <!-- BOOK BUTTON -->
+
+                <a href="book-a-session.html"
+                   class="book-button">
+
+                    BOOK A SESSION
+
+                </a>
+
+
+                <!-- LANGUAGE SWITCHER -->
+
+                <div class="language-switcher">
 
                     <a href="about.html"
                        class="active">
 
-                        About
+                        EN
 
                     </a>
 
-                </li>
+                    <span>|</span>
 
+                    <a href="nl/over-mij.html">
+
+                        NL
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ======================================================
+         ABOUT HERO
+    ====================================================== -->
+
+    <section class="about-hero">
+
+        <div class="about-hero-image">
+
+            <img src="images/about-hero.png"
+                 alt="Quiet workspace representing reflection and personal exploration">
+
+        </div>
+
+
+        <div class="about-hero-overlay">
+
+            <h1>
+
+                FOR YEARS I LOOKED FOR PATTERNS IN DATA.
+                TODAY, I HELP PEOPLE UNDERSTAND THE
+                PATTERNS WITHIN THEMSELVES.
+
+            </h1>
+
+        </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         MEET ALINE
+    ====================================================== -->
+
+    <section class="about-meet">
+
+        <div class="about-meet-inner">
+
+
+            <div class="about-meet-image">
+
+                <img src="images/aline-writing.png"
+                     alt="Aline writing and reflecting in a notebook">
+
+            </div>
+
+
+            <div class="about-meet-content">
+
+                <h2>
+                    MEET ALINE
+                </h2>
+
+
+                <p>
+                    Before becoming a trauma-informed somatic
+                    counsellor, I spent years working in digital
+                    analytics. My work centred around understanding
+                    behaviour, identifying patterns and asking
+                    thoughtful questions.
+                </p>
+
+
+                <p>
+                    Today, I combine that analytical mindset with
+                    trauma-informed somatic counselling and somatic
+                    therapy, helping people better understand
+                    themselves through both conversation and the body.
+                </p>
+
+
+                <p>
+                    Like many people I work with, I've experienced
+                    periods where life felt overwhelming.
+                </p>
+
+
+                <p>
+                    I've navigated anxiety, experienced profound grief
+                    and learned that understanding something
+                    intellectually doesn't always change how it feels
+                    in the body.
+                </p>
+
+
+                <p>
+                    Through those experiences I discovered the
+                    importance of nervous system regulation and
+                    movement, not as quick fixes, but as ways of
+                    gradually rebuilding trust in myself.
+                </p>
+
+
+                <p>
+                    Those experiences continue to shape how I work
+                    today.
+                </p>
+
+
+                <p>
+                    I offer trauma-informed somatic counselling in
+                    English and Dutch, both online and in person
+                    in Amsterdam.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         WHAT SETS MY WORK APART
+    ====================================================== -->
+
+    <section class="about-difference">
+
+        <div class="about-difference-inner">
+
+
+            <div class="about-difference-heading">
+
+                <h2>
+                    WHAT SETS MY WORK APART
+                </h2>
+
+            </div>
+
+
+            <div class="about-difference-grid">
+
+
+                <!-- SCIENCE WITH HUMANITY -->
+
+                <article class="about-difference-card">
+
+                    <div class="about-difference-image science-image">
+
+                        <img src="images/science-with-humanity.png"
+                             alt="Illustration representing science, the nervous system and human connection">
+
+                    </div>
+
+
+                    <h3>
+                        SCIENCE WITH HUMANITY
+                    </h3>
+
+
+                    <p>
+                        Trauma-informed somatic counselling is grounded
+                        in growing research on the nervous system and the
+                        connection between our body, emotions and
+                        experiences. I believe understanding the science
+                        helps us make sense of our responses. Not to reduce
+                        people to theories, but to approach each person's
+                        story with greater compassion, curiosity and care.
+                    </p>
+
+                </article>
+
+
+                <!-- MOVEMENT AS MEDICINE -->
+
+                <article class="about-difference-card">
+
+                    <div class="about-difference-image movement-image">
+
+                        <img src="images/movement-as-medicine.png"
+                             alt="Illustration representing movement, body awareness and wellbeing">
+
+                    </div>
+
+
+                    <h3>
+                        MOVEMENT AS MEDICINE
+                    </h3>
+
+
+                    <p>
+                        Movement has always been part of my own life, not
+                        as a way to perform or achieve more, but as a way
+                        to reconnect with myself. Whether that's yoga,
+                        walking, running or simply learning to notice your
+                        body, movement can become a powerful resource for
+                        regulation, resilience and wellbeing. When
+                        appropriate, I integrate movement into our work
+                        in a way that feels supportive and accessible to you.
+                    </p>
+
+                </article>
+
+
+                <!-- UNDERSTANDING PATTERNS -->
+
+                <article class="about-difference-card">
+
+                    <div class="about-difference-image patterns-image">
+
+                        <img src="images/understanding-patterns.png"
+                             alt="Illustration representing patterns, behaviour and self-understanding">
+
+                    </div>
+
+
+                    <h3>
+                        UNDERSTANDING PATTERNS
+                    </h3>
+
+
+                    <p>
+                        Before becoming a counsellor, I spent years
+                        working in digital analytics, helping organisations
+                        better understand human behaviour through data.
+                        That curiosity has stayed with me. Today, rather
+                        than searching for patterns in numbers, I help
+                        people make sense of the patterns within themselves.
+                        Bringing together empathy, structure and thoughtful
+                        reflection rather than assumptions or judgement.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         QUALIFICATIONS
+    ====================================================== -->
+
+    <section class="about-qualifications">
+
+        <div class="about-qualifications-inner">
+
+            <h2>
+                QUALIFICATIONS
+            </h2>
+
+
+            <ul>
 
                 <li>
-
-                    <a href="faq.html">
-
-                        FAQ
-
-                    </a>
-
+                    Certified Trauma-Informed Somatic Counsellor
                 </li>
 
+                <li>
+                    200H Yoga Teacher — Vinyasa &amp; Hatha
+                </li>
 
                 <li>
+                    Bachelor in Business Administration
+                </li>
 
-                    <a href="resources.html">
-
-                        Resources
-
-                    </a>
-
+                <li>
+                    Master of Science in Business Analysis &amp; Consulting
                 </li>
 
             </ul>
 
+        </div>
 
-            <!-- BOOK BUTTON -->
+    </section>
+
+
+    <!-- ======================================================
+         FINAL CTA
+    ====================================================== -->
+
+    <section class="about-cta">
+
+        <div class="about-cta-inner">
+
+            <h2>
+
+                CURIOUS ABOUT<br>
+                WORKING TOGETHER?
+
+            </h2>
+
 
             <a href="book-a-session.html"
-               class="book-button">
+               class="about-cta-button">
 
                 BOOK A SESSION
 
             </a>
 
-
-            <!-- LANGUAGE SWITCHER -->
-
-            <div class="language-switcher">
-
-                <a href="about.html"
-                   class="active">
-
-                    EN
-
-                </a>
-
-                <span>|</span>
-
-                <a href="nl/over-mij.html">
-
-                    NL
-
-                </a>
-
-            </div>
-
-
-        </nav>
-
-    </div>
-
-</header>
-
-
-
-<!-- ======================================================
-     ABOUT HERO
-====================================================== -->
-
-<section class="about-hero">
-
-    <div class="about-hero-image">
-
-        <img src="images/about-hero.png"
-             alt="Quiet workspace representing reflection and personal exploration">
-
-    </div>
-
-
-    <div class="about-hero-overlay">
-
-        <h1>
-
-            FOR YEARS I LOOKED FOR PATTERNS IN DATA.
-            TODAY, I HELP PEOPLE UNDERSTAND THE
-            PATTERNS WITHIN THEMSELVES.
-
-        </h1>
-
-    </div>
-
-</section>
-
-
-
-<!-- ======================================================
-     MEET ALINE
-====================================================== -->
-
-<section class="about-meet">
-
-    <div class="about-meet-inner">
-
-
-        <div class="about-meet-image">
-
-            <img src="images/aline-writing.png"
-                 alt="Aline writing and reflecting in a notebook">
-
         </div>
 
+    </section>
 
-        <div class="about-meet-content">
 
-            <h2>
-                MEET ALINE
-            </h2>
-
-
-            <p>
-                Before becoming a trauma-informed somatic
-                counsellor, I spent years working in digital
-                analytics. My work centred around understanding
-                behaviour, identifying patterns and asking
-                thoughtful questions.
-            </p>
-
-
-            <p>
-                Today, I combine that analytical mindset with
-                trauma-informed somatic counselling and somatic
-                therapy, helping people better understand
-                themselves through both conversation and the body.
-            </p>
-
-
-            <p>
-                Like many people I work with, I've experienced
-                periods where life felt overwhelming.
-            </p>
-
-
-            <p>
-                I've navigated anxiety, experienced profound grief
-                and learned that understanding something
-                intellectually doesn't always change how it feels
-                in the body.
-            </p>
-
-
-            <p>
-                Through those experiences I discovered the
-                importance of nervous system regulation and
-                movement, not as quick fixes, but as ways of
-                gradually rebuilding trust in myself.
-            </p>
-
-
-            <p>
-                Those experiences continue to shape how I work
-                today.
-            </p>
-
-
-            <p>
-                I offer trauma-informed somatic counselling in
-                English and Dutch, both online and in person
-                in Amsterdam.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- ======================================================
-     WHAT SETS MY WORK APART
-====================================================== -->
-
-<section class="about-difference">
-
-    <div class="about-difference-inner">
-
-
-        <div class="about-difference-heading">
-
-            <h2>
-                WHAT SETS MY WORK APART
-            </h2>
-
-        </div>
-
-
-        <div class="about-difference-grid">
-
-
-            <!-- SCIENCE WITH HUMANITY -->
-
-            <article class="about-difference-card">
-
-                <div class="about-difference-image science-image">
-
-                    <img src="images/science-with-humanity.png"
-                         alt="Illustration representing science, the nervous system and human connection">
-
-                </div>
-
-
-                <h3>
-                    SCIENCE WITH HUMANITY
-                </h3>
-
-
-                <p>
-                    Trauma-informed somatic counselling is grounded
-                    in growing research on the nervous system and the
-                    connection between our body, emotions and
-                    experiences. I believe understanding the science
-                    helps us make sense of our responses. Not to reduce
-                    people to theories, but to approach each person's
-                    story with greater compassion, curiosity and care.
-                </p>
-
-            </article>
-
-
-
-            <!-- MOVEMENT AS MEDICINE -->
-
-            <article class="about-difference-card">
-
-                <div class="about-difference-image movement-image">
-
-                    <img src="images/movement-as-medicine.png"
-                         alt="Illustration representing movement, body awareness and wellbeing">
-
-                </div>
-
-
-                <h3>
-                    MOVEMENT AS MEDICINE
-                </h3>
-
-
-                <p>
-                    Movement has always been part of my own life, not
-                    as a way to perform or achieve more, but as a way
-                    to reconnect with myself. Whether that's yoga,
-                    walking, running or simply learning to notice your
-                    body, movement can become a powerful resource for
-                    regulation, resilience and wellbeing. When
-                    appropriate, I integrate movement into our work
-                    in a way that feels supportive and accessible to you.
-                </p>
-
-            </article>
-
-
-
-            <!-- UNDERSTANDING PATTERNS -->
-
-            <article class="about-difference-card">
-
-                <div class="about-difference-image patterns-image">
-
-                    <img src="images/understanding-patterns.png"
-                         alt="Illustration representing patterns, behaviour and self-understanding">
-
-                </div>
-
-
-                <h3>
-                    UNDERSTANDING PATTERNS
-                </h3>
-
-
-                <p>
-                    Before becoming a counsellor, I spent years
-                    working in digital analytics, helping organisations
-                    better understand human behaviour through data.
-                    That curiosity has stayed with me. Today, rather
-                    than searching for patterns in numbers, I help
-                    people make sense of the patterns within themselves.
-                    Bringing together empathy, structure and thoughtful
-                    reflection rather than assumptions or judgement.
-                </p>
-
-            </article>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- ======================================================
-     QUALIFICATIONS
-====================================================== -->
-
-<section class="about-qualifications">
-
-    <div class="about-qualifications-inner">
-
-        <h2>
-            QUALIFICATIONS
-        </h2>
-
-
-        <ul>
-
-            <li>
-                Certified Trauma-Informed Somatic Counsellor
-            </li>
-
-            <li>
-                200H Yoga Teacher — Vinyasa &amp; Hatha
-            </li>
-
-            <li>
-                Bachelor in Business Administration
-            </li>
-
-            <li>
-                Master of Science in Business Analysis &amp; Consulting
-            </li>
-
-        </ul>
-
-    </div>
-
-</section>
-
-
-
-<!-- ======================================================
-     FINAL CTA
-====================================================== -->
-
-<section class="about-cta">
-
-    <div class="about-cta-inner">
-
-        <h2>
-
-            CURIOUS ABOUT<br>
-            WORKING TOGETHER?
-
-        </h2>
-
-
-        <a href="book-a-session.html"
-           class="about-cta-button">
-
-            BOOK A SESSION
-
-        </a>
-
-    </div>
-
-</section>
-
-
-
-<script src="app.js"></script>
+    <script src="app.js"></script>
 
 
 </body>

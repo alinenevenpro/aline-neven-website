@@ -4,29 +4,32 @@
 <head>
 
     <!-- ======================================================
-        EN/NL LANGUAGE SWITCHER
+         EN/NL LANGUAGE SWITCHER
     ====================================================== -->
-<link rel="alternate"
-      hreflang="en"
-      href="https://alineneven.com/online-somatic-counselling.html">
 
-<link rel="alternate"
-      hreflang="nl"
-      href="https://alineneven.com/nl/online-somatische-begeleiding.html">
+    <link rel="alternate"
+          hreflang="en"
+          href="https://alineneven.com/online-somatic-counselling.html">
 
-<link rel="alternate"
-      hreflang="x-default"
-      href="https://alineneven.com/online-somatic-counselling.html">
+    <link rel="alternate"
+          hreflang="nl"
+          href="https://alineneven.com/nl/online-somatische-begeleiding.html">
 
-     <!-- ======================================================
-        FAVICON
+    <link rel="alternate"
+          hreflang="x-default"
+          href="https://alineneven.com/online-somatic-counselling.html">
+
+
+    <!-- ======================================================
+         FAVICON
     ====================================================== -->
+
     <link rel="icon" href="../favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-<link rel="manifest" href="../site.webmanifest">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest">
 
 
     <!-- ======================================================
@@ -121,10 +124,78 @@
 
     <!-- ======================================================
          MAIN STYLESHEET
+         We are inside /nl/, so go one folder up.
     ====================================================== -->
 
     <link rel="stylesheet"
           href="../styles.css">
+
+
+    <!-- ======================================================
+         STRUCTURED DATA / JSON-LD
+    ====================================================== -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        {
+          "@type": "WebPage",
+          "@id": "https://alineneven.com/nl/online-somatische-begeleiding.html#webpage",
+          "url": "https://alineneven.com/nl/online-somatische-begeleiding.html",
+          "name": "Online Somatische Begeleiding | Trauma-geïnformeerde Begeleiding Online | Aline Neven",
+          "description": "Online trauma-geïnformeerde somatische begeleiding met Aline Neven. Verken je emoties, lichaam en patronen tijdens sessies van 75 minuten vanuit de vertrouwde omgeving van je eigen ruimte.",
+          "isPartOf": {
+            "@id": "https://alineneven.com/#website"
+          },
+          "about": {
+            "@id": "https://alineneven.com/nl/online-somatische-begeleiding.html#service"
+          },
+          "inLanguage": "nl-NL"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://alineneven.com/nl/online-somatische-begeleiding.html#service",
+          "name": "Online traumabewuste somatische begeleiding",
+          "description": "Online traumabewuste somatische begeleiding waarin gesprek, lichaamsbewustzijn en zachte beweging samenkomen tijdens sessies van 75 minuten.",
+          "provider": {
+            "@id": "https://alineneven.com/#person"
+          },
+          "serviceType": "Online traumabewuste somatische begeleiding",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Online"
+          },
+          "availableLanguage": [
+            "Dutch",
+            "English"
+          ]
+        },
+
+        {
+          "@type": "Person",
+          "@id": "https://alineneven.com/#person",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/nl/over-mij.html",
+          "jobTitle": "Traumabewust somatisch counsellor",
+          "worksFor": {
+            "@id": "https://alineneven.com/#organization"
+          }
+        },
+
+        {
+          "@type": "Organization",
+          "@id": "https://alineneven.com/#organization",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/",
+          "description": "Traumabewuste somatische begeleiding in Amsterdam en online."
+        }
+
+      ]
+    }
+    </script>
 
 </head>
 
@@ -141,7 +212,7 @@
         <div class="page-container">
 
 
-            <!-- Logo -->
+            <!-- LOGO -->
 
             <a href="index.html"
                class="logo">
@@ -151,7 +222,7 @@
             </a>
 
 
-            <!-- Navigatie -->
+            <!-- NAVIGATIE -->
 
             <nav>
 
@@ -159,7 +230,7 @@
 
                     <li>
 
-                        <a href="who-i-work-with.html">
+                        <a href="wie-ik-help.html">
 
                             Met wie ik werk
 
@@ -170,7 +241,7 @@
 
                     <li>
 
-                        <a href="my-approach.html">
+                        <a href="mijn-aanpak.html">
 
                             Mijn aanpak
 
@@ -181,7 +252,7 @@
 
                     <li>
 
-                        <a href="about.html">
+                        <a href="over-mij.html">
 
                             Over mij
 
@@ -252,7 +323,6 @@
     </header>
 
 
-
     <!-- ======================================================
          ONLINE SOMATISCHE BEGELEIDING
     ====================================================== -->
@@ -316,7 +386,6 @@
             </div>
 
         </section>
-
 
 
         <!-- ==================================================
@@ -385,7 +454,6 @@
         </section>
 
 
-
         <!-- ==================================================
              HOE HET WERKT
         ================================================== -->
@@ -419,7 +487,6 @@
 
 
                 <p>
-                    <p></p>
 
                     Een groot deel van de sessie bestaat uit gesprek.
 
@@ -472,7 +539,6 @@
             </div>
 
         </section>
-
 
 
         <!-- ==================================================
@@ -549,7 +615,6 @@
         </section>
 
 
-
         <!-- ==================================================
              DE WETENSCHAP
         ================================================== -->
@@ -593,7 +658,6 @@
             </div>
 
         </section>
-
 
 
         <!-- ==================================================
@@ -679,7 +743,6 @@
         </section>
 
 
-
         <!-- ==================================================
              LAATSTE CTA
         ================================================== -->
@@ -733,9 +796,7 @@
         </section>
 
 
-
     </main>
-
 
 
     <!-- ======================================================

@@ -4,14 +4,32 @@
 <head>
 
     <!-- ======================================================
-        FAVICON
+         EN/NL LANGUAGE SWITCHER
     ====================================================== -->
+
+    <link rel="alternate"
+          hreflang="en"
+          href="https://alineneven.com/faq.html">
+
+    <link rel="alternate"
+          hreflang="nl"
+          href="https://alineneven.com/nl/faq.html">
+
+    <link rel="alternate"
+          hreflang="x-default"
+          href="https://alineneven.com/faq.html">
+
+
+    <!-- ======================================================
+         FAVICON
+    ====================================================== -->
+
     <link rel="icon" href="../favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-<link rel="manifest" href="../site.webmanifest">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest">
 
 
     <!-- ======================================================
@@ -111,7 +129,7 @@
           crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet">
+          rel="stylesheet">
 
 
     <!-- ======================================================
@@ -123,15 +141,166 @@
           href="../styles.css">
 
 
-<style>
-.faq-answer a {
-    color: inherit;
-    font-weight: 500;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
-}
-</style>
+    <!-- ======================================================
+         FAQ LINK STYLING
+    ====================================================== -->
+
+    <style>
+
+        .faq-answer a {
+            color: inherit;
+            font-weight: 500;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 3px;
+        }
+
+    </style>
+
+
+    <!-- ======================================================
+         STRUCTURED DATA / JSON-LD
+    ====================================================== -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        {
+          "@type": "WebPage",
+          "@id": "https://alineneven.com/nl/faq.html#webpage",
+          "url": "https://alineneven.com/nl/faq.html",
+          "name": "FAQ | Somatische therapie in Amsterdam | Aline Neven",
+          "description": "Veelgestelde vragen over traumabewuste somatische therapie bij Aline Neven in Amsterdam en online. Lees meer over sessies, kosten, therapie en mijn aanpak.",
+          "isPartOf": {
+            "@id": "https://alineneven.com/#website"
+          },
+          "inLanguage": "nl-NL"
+        },
+
+        {
+          "@type": "FAQPage",
+          "@id": "https://alineneven.com/nl/faq.html#faq",
+          "url": "https://alineneven.com/nl/faq.html",
+          "inLanguage": "nl-NL",
+          "mainEntity": [
+
+            {
+              "@type": "Question",
+              "name": "Wordt traumabewuste somatische therapie vergoed door de verzekering?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Traumabewuste somatische therapie wordt momenteel niet vergoed door de zorgverzekering. Sessies zijn daarom voor eigen rekening en kunnen worden gezien als een investering in je welzijn en persoonlijke groei."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "Hoe weet ik of we goed bij elkaar passen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Het vinden van de juiste begeleider is belangrijk. Als je eerst wilt ervaren hoe ik werk of vragen hebt voordat je een sessie boekt, kun je vrijblijvend een gratis kennismakingsgesprek inplannen. Zo kunnen we kennismaken en bespreken of mijn manier van werken bij je past."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "Hoeveel kost een sessie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Je kunt beginnen met een gratis kennismakingsgesprek van 30 minuten om vragen te stellen en te ervaren of samenwerken goed voelt voor jou. Een reguliere sessie van 75 minuten kost €65."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "Welke benaderingen gebruik je in je praktijk?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mijn werk is gebaseerd op traumabewuste somatische therapie en verschillende benaderingen die tijdens mijn opleiding aan bod kwamen, waaronder polyvagaaltheorie, regulatie van het zenuwstelsel, somatisch gerichte traumaverwerking, bilaterale verwerkingstechnieken, parts-based benaderingen, mindfulness en ademwerk. Daarnaast integreer ik counsellingvaardigheden, stabilisatie en het creëren van veiligheid, met aandacht voor grenzen, ethiek en de individuele behoeften van iedere persoon."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "Bied je online sessies aan?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Online sessies bieden dezelfde ruimte van 75 minuten voor gesprek, lichaamsbewustzijn en verkenning als sessies in persoon. We kunnen vanuit de vertrouwdheid van je eigen ruimte werken, met gesprek, grounding, aandacht voor de ademhaling en, waar passend, zachte beweging."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "Moet ik trauma hebben ervaren?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Helemaal niet. Veel mensen komen omdat ze te maken hebben met rouw, burn-out, angst, chronische stress of een grote verandering in hun leven. Traumabewust werken betekent simpelweg dat ik me bewust ben van hoe onze ervaringen ons zenuwstelsel en de manier waarop we door het leven bewegen kunnen beïnvloeden."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "Moet ik bewegen tijdens een sessie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Beweging is altijd een uitnodiging, nooit een verwachting. Sommige sessies zijn voornamelijk gericht op gesprek, terwijl andere meer ervaringsgericht kunnen zijn. We bepalen samen wat op dat moment ondersteunend voelt."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "Is dit therapie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ik ben een traumabewust somatisch counsellor, geen psycholoog of psychiater. Mijn werk richt zich op emotioneel welzijn, regulatie van het zenuwstelsel en persoonlijke groei. Het vervangt geen medische of psychiatrische zorg. Wanneer dat passend is, werk ik graag samen met andere zorgprofessionals."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "Hoeveel sessies heb ik nodig?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Er is geen vast aantal. Sommige mensen komen voor ondersteuning tijdens een specifieke levensgebeurtenis, terwijl anderen ervoor kiezen om gedurende langere tijd samen te werken. We blijven regelmatig stilstaan bij je doelen en bij wat voor jou goed voelt."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "Wat als ik niet weet hoe ik me voel?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dat is helemaal oké. Veel mensen komen binnen met het gevoel dat ze van zichzelf verwijderd zijn of moeite hebben om hun ervaring onder woorden te brengen. Een deel van ons werk is leren opmerken wat er gebeurt, zonder dat je meteen alle antwoorden hoeft te hebben."
+              }
+            }
+
+          ]
+        },
+
+        {
+          "@type": "Person",
+          "@id": "https://alineneven.com/#person",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/nl/over-mij.html",
+          "jobTitle": "Traumabewust somatisch counsellor",
+          "worksFor": {
+            "@id": "https://alineneven.com/#organization"
+          }
+        },
+
+        {
+          "@type": "Organization",
+          "@id": "https://alineneven.com/#organization",
+          "name": "Aline Neven",
+          "url": "https://alineneven.com/",
+          "description": "Traumabewuste somatische begeleiding in Amsterdam en online."
+        }
+
+      ]
+    }
+    </script>
 
 </head>
 
@@ -139,781 +308,709 @@
 <body class="faq-page">
 
 
-<!-- ======================================================
-     NAVIGATIE
-====================================================== -->
+    <!-- ======================================================
+         NAVIGATIE
+    ====================================================== -->
 
-<header class="page-header">
+    <header class="page-header">
 
-    <div class="page-container">
-
-
-        <a href="index.html"
-           class="logo">
-
-            ALINE NEVEN
-
-        </a>
+        <div class="page-container">
 
 
-        <nav>
+            <a href="index.html"
+               class="logo">
 
-            <ul>
+                ALINE NEVEN
 
-                <li>
+            </a>
 
-                    <a href="wie-ik-help.html">
 
-                        Wie ik help
+            <nav>
+
+                <ul>
+
+                    <li>
+
+                        <a href="wie-ik-help.html">
+
+                            Wie ik help
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="mijn-aanpak.html">
+
+                            Mijn aanpak
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="over-mij.html">
+
+                            Over mij
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="faq.html"
+                           class="active">
+
+                            FAQ
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="artikelen.html">
+
+                            Artikelen
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+
+                <!-- BOOK BUTTON -->
+
+                <a href="afspraak-maken.html"
+                   class="book-button">
+
+                    AFSPRAAK MAKEN
+
+                </a>
+
+
+                <!-- LANGUAGE SWITCHER -->
+
+                <div class="language-switcher">
+
+                    <a href="../faq.html">
+
+                        EN
 
                     </a>
 
-                </li>
-
-
-                <li>
-
-                    <a href="mijn-aanpak.html">
-
-                        Mijn aanpak
-
-                    </a>
-
-                </li>
-
-
-                <li>
-
-                    <a href="over-mij.html">
-
-                        Over mij
-
-                    </a>
-
-                </li>
-
-
-                <li>
+                    <span>|</span>
 
                     <a href="faq.html"
                        class="active">
 
-                        FAQ
+                        NL
 
                     </a>
 
-                </li>
+                </div>
 
-
-                <li>
-
-                    <a href="artikelen.html">
-
-                        Artikelen
-
-                    </a>
-
-                </li>
-
-            </ul>
-
-
-            <!-- BOOK BUTTON -->
-
-            <a href="afspraak-maken.html"
-               class="book-button">
-
-                AFSPRAAK MAKEN
-
-            </a>
-
-
-            <!-- LANGUAGE SWITCHER -->
-
-            <div class="language-switcher">
-
-                <a href="../faq.html">
-
-                    EN
-
-                </a>
-
-                <span>|</span>
-
-                <a href="faq.html"
-                   class="active">
-
-                    NL
-
-                </a>
-
-            </div>
-
-
-        </nav>
-
-    </div>
-
-</header>
-
-
-
-<!-- ======================================================
-     FAQ MAIN
-====================================================== -->
-
-<main class="faq-main">
-
-
-    <div class="faq-layout">
-
-
-        <!-- ==================================================
-             LINKER KOLOM
-        ================================================== -->
-
-        <div class="faq-intro">
-
-
-            <h1>
-
-                VEELGESTELDE<br>
-                VRAGEN
-
-            </h1>
-
-
-            <div class="faq-image">
-
-                <img src="../images/faq-hero.png"
-                     alt="Twee mensen in een aandachtig gesprek">
-
-            </div>
-
+            </nav>
 
         </div>
 
-
-
-        <!-- ==================================================
-             RECHTER KOLOM — VRAGEN
-        ================================================== -->
-
-        <div class="faq-list">
-
-
-            <!-- ==================================================
-                 VRAAG 0
-            ================================================== -->
-
-            <details class="faq-item"
-                     open>
-
-
-                <summary>
-
-                    <span>
-
-                        WORDT TRAUMABEWUST SOMATISCHE THERAPIE VERGOED DOOR DE VERZEKERING?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        −
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Traumabewuste somatische therapie wordt momenteel
-                        niet vergoed door de zorgverzekering. Sessies zijn
-                        daarom voor eigen rekening en kunnen worden gezien
-                        als een investering in je welzijn en persoonlijke groei.
-
-                    </p>
-
-
-                    <p>
-
-                        Hoewel het geen vervanging is voor medische of
-                        psychologische behandeling wanneer die nodig is,
-                        biedt somatische therapie een andere manier om
-                        met je ervaringen te werken. We besteden aandacht
-                        aan niet alleen gedachten en emoties, maar ook aan
-                        het lichaam en het zenuwstelsel.
-
-                    </p>
-
-
-                    <p>
-
-                        Als je twijfelt of deze aanpak bij je past, kun je
-                        altijd contact opnemen voordat je een sessie boekt.
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-
-            <!-- ==================================================
-                 VRAAG 2
-            ================================================== -->
-
-            <details class="faq-item">
-
-
-                <summary>
-
-                    <span>
-
-                        HOE WEET IK OF WE GOED BIJ ELKAAR PASSEN?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        +
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Het vinden van de juiste begeleider is belangrijk.
-
-                    </p>
-
-
-                    <p>
-
-                        Als je eerst wilt ervaren hoe ik werk of vragen
-                        hebt voordat je een sessie boekt, kun je vrijblijvend
-                        een gratis kennismakingsgesprek inplannen. Zo kunnen
-                        we kennismaken en bespreken of mijn manier van werken
-                        bij je past.
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-
-            <!-- ==================================================
-                 VRAAG 3
-            ================================================== -->
-
-            <details class="faq-item">
-
-
-                <summary>
-
-                    <span>
-
-                        HOEVEEL KOST EEN SESSIE?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        +
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Je kunt beginnen met een gratis kennismakingsgesprek
-                        van 30 minuten om vragen te stellen en te ervaren
-                        of samenwerken goed voelt voor jou.
-
-                    </p>
-
-
-                    <p>
-
-                        Een reguliere sessie van 75 minuten kost €65.
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-
-            <!-- ==================================================
-                 VRAAG 4
-            ================================================== -->
-
-            <details class="faq-item">
-
-
-                <summary>
-
-                    <span>
-
-                        WELKE BENADERINGEN GEBRUIK JE IN JE PRAKTIJK?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        +
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Mijn werk is gebaseerd op traumabewuste somatische
-                        therapie en verschillende benaderingen die tijdens
-                        mijn opleiding aan bod kwamen, waaronder polyvagaaltheorie,
-                        regulatie van het zenuwstelsel, somatisch gerichte
-                        traumaverwerking, bilaterale verwerkingstechnieken,
-                        parts-based benaderingen, mindfulness en ademwerk.
-
-                    </p>
-
-
-                    <p>
-
-                        Daarnaast integreer ik counsellingvaardigheden,
-                        stabilisatie en het creëren van veiligheid, met
-                        aandacht voor grenzen, ethiek en de individuele
-                        behoeften van iedere persoon.
-
-                    </p>
-
-
-                    <p>
-
-                        Mijn doel is niet om één methode op iedereen toe
-                        te passen. Ik gebruik deze benaderingen selectief
-                        en in samenwerking met jou, afhankelijk van wat
-                        op dat moment passend en ondersteunend voelt.
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-
-            <!-- ==================================================
-                 VRAAG 4
-            ================================================== -->
-
-            <details class="faq-item">
-
-
-                <summary>
-
-                    <span>
-
-                        BIED JE ONLINE SESSIES AAN?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        +
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Ja.
-
-                    </p>
-
-
-                    <p>
-
-                        Online sessies bieden dezelfde ruimte van 75 minuten
-                        voor gesprek, lichaamsbewustzijn en verkenning als
-                        sessies in persoon.
-
-                    </p>
-
-                    <p>
-
-                        We kunnen vanuit de vertrouwdheid van je eigen ruimte
-                        werken, met gesprek, grounding, aandacht voor de ademhaling
-                        en, waar passend, zachte beweging.
-
-                    </p>
-
-                    <p>
-
-                        <a href="online-somatische-begeleiding.html">
-                            Benieuwd hoe een online sessie eruitziet?
-                            Ontdek online somatische begeleiding →
-                        </a>
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-
-            
-
-<!-- ==================================================
-                 VRAAG 5
-            ================================================== -->
-
-            <details class="faq-item">
-
-
-                <summary>
-
-                    <span>
-
-                        MOET IK TRAUMA HEBBEN ERVAREN?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        +
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Helemaal niet.
-
-                    </p>
-
-
-                    <p>
-
-                        Veel mensen komen omdat ze te maken hebben met
-                        rouw, burn-out, angst, chronische stress of een
-                        grote verandering in hun leven. Traumabewust werken
-                        betekent simpelweg dat ik me bewust ben van hoe onze
-                        ervaringen ons zenuwstelsel en de manier waarop we
-                        door het leven bewegen kunnen beïnvloeden.
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-
-            <!-- ==================================================
-                 VRAAG 6
-            ================================================== -->
-
-            <details class="faq-item">
-
-
-                <summary>
-
-                    <span>
-
-                        MOET IK BEWEGEN TIJDENS EEN SESSIE?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        +
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Nee.
-
-                    </p>
-
-
-                    <p>
-
-                        Beweging is altijd een uitnodiging, nooit een
-                        verwachting.
-
-                    </p>
-
-
-                    <p>
-
-                        Sommige sessies zijn voornamelijk gericht op
-                        gesprek, terwijl andere meer ervaringsgericht
-                        kunnen zijn. We bepalen samen wat op dat moment
-                        ondersteunend voelt.
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-
-            <!-- ==================================================
-                 VRAAG 7
-            ================================================== -->
-
-            <details class="faq-item">
-
-
-                <summary>
-
-                    <span>
-
-                        IS DIT THERAPIE?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        +
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Ik ben een traumabewust somatisch counsellor,
-                        geen psycholoog of psychiater.
-
-                    </p>
-
-
-                    <p>
-
-                        Mijn werk richt zich op emotioneel welzijn,
-                        regulatie van het zenuwstelsel en persoonlijke
-                        groei. Het vervangt geen medische of psychiatrische
-                        zorg. Wanneer dat passend is, werk ik graag samen
-                        met andere zorgprofessionals.
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-
-            <!-- ==================================================
-                 VRAAG 8
-            ================================================== -->
-
-            <details class="faq-item">
-
-
-                <summary>
-
-                    <span>
-
-                        HOEVEEL SESSIES HEB IK NODIG?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        +
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Er is geen vast aantal.
-
-                    </p>
-
-
-                    <p>
-
-                        Sommige mensen komen voor ondersteuning tijdens
-                        een specifieke levensgebeurtenis, terwijl anderen
-                        ervoor kiezen om gedurende langere tijd samen te
-                        werken. We blijven regelmatig stilstaan bij je
-                        doelen en bij wat voor jou goed voelt.
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-
-            <!-- ==================================================
-                 VRAAG 9
-            ================================================== -->
-
-            <details class="faq-item">
-
-
-                <summary>
-
-                    <span>
-
-                        WAT ALS IK NIET WEET HOE IK ME VOEL?
-
-                    </span>
-
-
-                    <span class="faq-icon">
-
-                        +
-
-                    </span>
-
-                </summary>
-
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Dat is helemaal oké.
-
-                    </p>
-
-
-                    <p>
-
-                        Veel mensen komen binnen met het gevoel dat ze
-                        van zichzelf verwijderd zijn of moeite hebben om
-                        hun ervaring onder woorden te brengen.
-
-                    </p>
-
-
-                    <p>
-
-                        Een deel van ons werk is leren opmerken wat er
-                        gebeurt, zonder dat je meteen alle antwoorden
-                        hoeft te hebben.
-
-                    </p>
-
-                </div>
-
-
-            </details>
-
-
-        </div>
-
-
-    </div>
-
+    </header>
 
 
     <!-- ======================================================
-         FAQ AFSLUITENDE CONTACTBAND
+         FAQ MAIN
     ====================================================== -->
 
-    <section class="faq-cta">
+    <main class="faq-main">
 
-        <div class="faq-cta-inner">
 
-            <div class="faq-cta-copy">
-                <h2>
-                    GEEN ANTWOORD OP JE VRAAG GEVONDEN?
-                </h2>
+        <div class="faq-layout">
 
-                <p>
-                    Staat je vraag er niet tussen? Neem gerust contact met me op.
-                   
-                </p>
+
+            <!-- ==================================================
+                 LINKER KOLOM
+            ================================================== -->
+
+            <div class="faq-intro">
+
+                <h1>
+
+                    VEELGESTELDE<br>
+                    VRAGEN
+
+                </h1>
+
+
+                <div class="faq-image">
+
+                    <img src="../images/faq-hero.png"
+                         alt="Twee mensen in een aandachtig gesprek">
+
+                </div>
+
             </div>
 
-            <a href="mailto:alineneven@gmail.com"
-               class="faq-cta-button">
-                NEEM CONTACT OP
-                <span>→</span>
-            </a>
+
+            <!-- ==================================================
+                 RECHTER KOLOM — VRAGEN
+            ================================================== -->
+
+            <div class="faq-list">
+
+
+                <!-- VRAAG 0 -->
+
+                <details class="faq-item" open>
+
+                    <summary>
+
+                        <span>
+
+                            WORDT TRAUMABEWUST SOMATISCHE THERAPIE
+                            VERGOED DOOR DE VERZEKERING?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            −
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Traumabewuste somatische therapie wordt momenteel
+                            niet vergoed door de zorgverzekering. Sessies zijn
+                            daarom voor eigen rekening en kunnen worden gezien
+                            als een investering in je welzijn en persoonlijke groei.
+
+                        </p>
+
+
+                        <p>
+
+                            Hoewel het geen vervanging is voor medische of
+                            psychologische behandeling wanneer die nodig is,
+                            biedt somatische therapie een andere manier om
+                            met je ervaringen te werken. We besteden aandacht
+                            aan niet alleen gedachten en emoties, maar ook aan
+                            het lichaam en het zenuwstelsel.
+
+                        </p>
+
+
+                        <p>
+
+                            Als je twijfelt of deze aanpak bij je past, kun je
+                            altijd contact opnemen voordat je een sessie boekt.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+                <!-- VRAAG 2 -->
+
+                <details class="faq-item">
+
+                    <summary>
+
+                        <span>
+
+                            HOE WEET IK OF WE GOED BIJ ELKAAR PASSEN?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            +
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Het vinden van de juiste begeleider is belangrijk.
+
+                        </p>
+
+
+                        <p>
+
+                            Als je eerst wilt ervaren hoe ik werk of vragen
+                            hebt voordat je een sessie boekt, kun je vrijblijvend
+                            een gratis kennismakingsgesprek inplannen. Zo kunnen
+                            we kennismaken en bespreken of mijn manier van werken
+                            bij je past.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+                <!-- VRAAG 3 -->
+
+                <details class="faq-item">
+
+                    <summary>
+
+                        <span>
+
+                            HOEVEEL KOST EEN SESSIE?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            +
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Je kunt beginnen met een gratis kennismakingsgesprek
+                            van 30 minuten om vragen te stellen en te ervaren
+                            of samenwerken goed voelt voor jou.
+
+                        </p>
+
+
+                        <p>
+
+                            Een reguliere sessie van 75 minuten kost €65.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+                <!-- VRAAG 4 -->
+
+                <details class="faq-item">
+
+                    <summary>
+
+                        <span>
+
+                            WELKE BENADERINGEN GEBRUIK JE IN JE PRAKTIJK?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            +
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Mijn werk is gebaseerd op traumabewuste somatische
+                            therapie en verschillende benaderingen die tijdens
+                            mijn opleiding aan bod kwamen, waaronder polyvagaaltheorie,
+                            regulatie van het zenuwstelsel, somatisch gerichte
+                            traumaverwerking, bilaterale verwerkingstechnieken,
+                            parts-based benaderingen, mindfulness en ademwerk.
+
+                        </p>
+
+
+                        <p>
+
+                            Daarnaast integreer ik counsellingvaardigheden,
+                            stabilisatie en het creëren van veiligheid, met
+                            aandacht voor grenzen, ethiek en de individuele
+                            behoeften van iedere persoon.
+
+                        </p>
+
+
+                        <p>
+
+                            Mijn doel is niet om één methode op iedereen toe
+                            te passen. Ik gebruik deze benaderingen selectief
+                            en in samenwerking met jou, afhankelijk van wat
+                            op dat moment passend en ondersteunend voelt.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+                <!-- VRAAG 5 — ONLINE SESSIES -->
+
+                <details class="faq-item">
+
+                    <summary>
+
+                        <span>
+
+                            BIED JE ONLINE SESSIES AAN?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            +
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Ja.
+
+                        </p>
+
+
+                        <p>
+
+                            Online sessies bieden dezelfde ruimte van 75 minuten
+                            voor gesprek, lichaamsbewustzijn en verkenning als
+                            sessies in persoon.
+
+                        </p>
+
+
+                        <p>
+
+                            We kunnen vanuit de vertrouwdheid van je eigen ruimte
+                            werken, met gesprek, grounding, aandacht voor de ademhaling
+                            en, waar passend, zachte beweging.
+
+                        </p>
+
+
+                        <p>
+
+                            <a href="online-somatische-begeleiding.html">
+
+                                Benieuwd hoe een online sessie eruitziet?
+                                Ontdek online somatische begeleiding →
+
+                            </a>
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+                <!-- VRAAG 6 -->
+
+                <details class="faq-item">
+
+                    <summary>
+
+                        <span>
+
+                            MOET IK TRAUMA HEBBEN ERVAREN?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            +
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Helemaal niet.
+
+                        </p>
+
+
+                        <p>
+
+                            Veel mensen komen omdat ze te maken hebben met
+                            rouw, burn-out, angst, chronische stress of een
+                            grote verandering in hun leven. Traumabewust werken
+                            betekent simpelweg dat ik me bewust ben van hoe onze
+                            ervaringen ons zenuwstelsel en de manier waarop we
+                            door het leven bewegen kunnen beïnvloeden.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+                <!-- VRAAG 7 -->
+
+                <details class="faq-item">
+
+                    <summary>
+
+                        <span>
+
+                            MOET IK BEWEGEN TIJDENS EEN SESSIE?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            +
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Nee.
+
+                        </p>
+
+
+                        <p>
+
+                            Beweging is altijd een uitnodiging, nooit een
+                            verwachting.
+
+                        </p>
+
+
+                        <p>
+
+                            Sommige sessies zijn voornamelijk gericht op
+                            gesprek, terwijl andere meer ervaringsgericht
+                            kunnen zijn. We bepalen samen wat op dat moment
+                            ondersteunend voelt.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+                <!-- VRAAG 8 -->
+
+                <details class="faq-item">
+
+                    <summary>
+
+                        <span>
+
+                            IS DIT THERAPIE?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            +
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Ik ben een traumabewust somatisch counsellor,
+                            geen psycholoog of psychiater.
+
+                        </p>
+
+
+                        <p>
+
+                            Mijn werk richt zich op emotioneel welzijn,
+                            regulatie van het zenuwstelsel en persoonlijke
+                            groei. Het vervangt geen medische of psychiatrische
+                            zorg. Wanneer dat passend is, werk ik graag samen
+                            met andere zorgprofessionals.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+                <!-- VRAAG 9 -->
+
+                <details class="faq-item">
+
+                    <summary>
+
+                        <span>
+
+                            HOEVEEL SESSIES HEB IK NODIG?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            +
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Er is geen vast aantal.
+
+                        </p>
+
+
+                        <p>
+
+                            Sommige mensen komen voor ondersteuning tijdens
+                            een specifieke levensgebeurtenis, terwijl anderen
+                            ervoor kiezen om gedurende langere tijd samen te
+                            werken. We blijven regelmatig stilstaan bij je
+                            doelen en bij wat voor jou goed voelt.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+                <!-- VRAAG 10 -->
+
+                <details class="faq-item">
+
+                    <summary>
+
+                        <span>
+
+                            WAT ALS IK NIET WEET HOE IK ME VOEL?
+
+                        </span>
+
+                        <span class="faq-icon">
+                            +
+                        </span>
+
+                    </summary>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Dat is helemaal oké.
+
+                        </p>
+
+
+                        <p>
+
+                            Veel mensen komen binnen met het gevoel dat ze
+                            van zichzelf verwijderd zijn of moeite hebben om
+                            hun ervaring onder woorden te brengen.
+
+                        </p>
+
+
+                        <p>
+
+                            Een deel van ons werk is leren opmerken wat er
+                            gebeurt, zonder dat je meteen alle antwoorden
+                            hoeft te hebben.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+
+            </div>
 
         </div>
 
-    </section>
 
-</main>
+        <!-- ======================================================
+             FAQ AFSLUITENDE CONTACTBAND
+        ====================================================== -->
+
+        <section class="faq-cta">
+
+            <div class="faq-cta-inner">
+
+                <div class="faq-cta-copy">
+
+                    <h2>
+
+                        GEEN ANTWOORD OP JE VRAAG GEVONDEN?
+
+                    </h2>
+
+                    <p>
+
+                        Staat je vraag er niet tussen? Neem gerust contact
+                        met me op.
+
+                    </p>
+
+                </div>
 
 
+                <a href="mailto:alineneven@gmail.com"
+                   class="faq-cta-button">
 
-<!-- ======================================================
-     JAVASCRIPT
-====================================================== -->
+                    NEEM CONTACT OP
 
-<script src="../app.js"></script>
+                    <span>
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ======================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="../app.js"></script>
 
 
 </body>
