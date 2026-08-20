@@ -2352,21 +2352,16 @@ nav a:hover{
 
 .about-page .about-meet {
     background: #f4f0ea;
-
     padding: 105px 60px 115px;
 }
 
-
 .about-page .about-meet-inner {
-    max-width: 1100px;
-
+    max-width: 1200px;
     margin: 0 auto;
 
     display: grid;
-
-    grid-template-columns: 430px 1fr;
-
-    gap: 95px;
+    grid-template-columns: 520px 1fr;
+    gap: 75px;
 
     align-items: center;
 }
@@ -2378,8 +2373,7 @@ nav a:hover{
 
 .about-page .about-meet-image {
     width: 100%;
-
-    max-width: 430px;
+    max-width: 520px;
 
     aspect-ratio: 4 / 5;
 
@@ -2391,7 +2385,6 @@ nav a:hover{
         43% 57% 47% 53%;
 }
 
-
 .about-page .about-meet-image img {
     display: block;
 
@@ -2399,26 +2392,21 @@ nav a:hover{
     height: 100%;
 
     object-fit: cover;
-
     object-position: center;
 }
 
 
 /* ==========================================================
    MEET ALINE TITLE
-
-   Same heading system as My Approach / Who I Work With
 ========================================================== */
 
 .about-page .about-meet-content h2 {
     font-family: 'Bebas Neue', sans-serif;
 
     font-size: 2rem;
-
     font-weight: 400;
 
     line-height: 1;
-
     letter-spacing: .03em;
 
     color: #262522;
@@ -2435,7 +2423,6 @@ nav a:hover{
     font-family: 'Inter', sans-serif;
 
     font-size: 19px;
-
     font-weight: 400;
 
     line-height: 1.7;
@@ -2445,11 +2432,9 @@ nav a:hover{
     margin: 0 0 19px;
 }
 
-
 .about-page .about-meet-content p:last-child {
     margin-bottom: 0;
 }
-
 
 /* ==========================================================
    ABOUT ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â WHAT SETS MY WORK APART
@@ -2940,7 +2925,7 @@ nav a:hover{
 
     .about-page .about-meet-image {
         width: 100%;
-        max-width: 360px;
+        max-width: 420px;
         margin: 0 auto;
     }
 
