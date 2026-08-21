@@ -6102,3 +6102,578 @@ nav a:hover{
     }
 
 }
+
+/* Desktop-only typography: 20% smaller. Mobile (768px and below) remains unchanged. */
+@media (min-width:769px){
+.logo{
+font-size:13.6px;
+}
+
+nav a{
+font-size:13.6px;
+}
+
+.book-button{
+font-size:12px;
+}
+
+.hero-content h1{
+font-size:clamp(4rem,8vw,6.4rem);
+}
+
+.hero-content p{
+font-size:16px;
+}
+
+.start-button{
+font-size:13.6px;
+}
+
+.page-header .logo{
+font-size:13.6px;
+}
+
+.page-header nav a{
+font-size:13.6px;
+}
+
+.page-header .book-button{
+font-size:12px;
+}
+
+.page-intro h1{
+font-size:clamp(3.2rem,4.8vw,4.8rem);
+}
+
+.page-intro p{
+font-size:15.2px;
+}
+
+.work-card h2{
+font-size:24px;
+}
+
+.work-card span{
+font-size:8.8px;
+}
+
+.topic-label{
+font-size:8px;
+}
+
+.topic-header h1{
+font-size:clamp(2.8rem,4vw,4.16rem);
+}
+
+.topic-lead{
+font-size:16.8px;
+}
+
+.topic-text h2{
+font-size:14.4px;
+}
+
+.topic-text li{
+font-size:15.2px;
+}
+
+.topic-text > p:not(.topic-lead){
+font-size:15.2px;
+}
+
+.topic-button{
+font-size:11.2px;
+}
+
+.topic-button span{
+font-size:12.8px;
+}
+
+.topic-resource-link p{
+font-size:15.2px;
+}
+
+.topic-resource-link a{
+font-size:11.2px;
+}
+
+.topic-resource-link a span{
+font-size:13.6px;
+}
+
+.approach-statement h1{
+font-size:clamp(2.64rem,3.68vw,4rem);
+}
+
+.approach-intro-text p{
+font-size:15.2px;
+}
+
+.approach-section-heading h2{
+font-size:2.56rem;
+}
+
+.approach-method-text p{
+font-size:15.2px;
+}
+
+.approach-tools h3{
+font-size:14.4px;
+}
+
+.approach-tools li{
+font-size:14.4px;
+}
+
+.approach-note{
+font-size:13.6px;
+}
+
+.approach-card-content h2{
+font-size:1.6rem;
+}
+
+.approach-card-content p{
+font-size:14.4px;
+}
+
+.approach-card-content li{
+font-size:14.4px;
+}
+
+.approach-cta h2{
+font-size:clamp(2.08rem,2.8vw,3.04rem);
+}
+
+.approach-cta-button{
+font-size:11.2px;
+}
+
+.approach-cta-button span{
+font-size:12.8px;
+}
+
+.approach-online-cta strong{
+font-size:9.6px;
+}
+
+.approach-online-cta > span{
+font-size:11.2px;
+}
+
+.about-page .about-hero-overlay h1{
+font-size:clamp(2.16rem, 3.2vw, 3.52rem);
+}
+
+.about-page .about-meet-content h2{
+font-size:1.6rem;
+}
+
+.about-page .about-meet-content p{
+font-size:15.2px;
+}
+
+.about-page .about-difference-heading h2{
+font-size:2rem !important;
+}
+
+.about-page .about-difference-card h3{
+font-size:1.6rem;
+}
+
+.about-page .about-difference-card p{
+font-size:14.4px;
+}
+
+.about-page .about-qualifications h2{
+font-size:2rem !important;
+}
+
+.about-page .about-qualifications li{
+font-size:15.2px;
+}
+
+.about-page .about-qualifications li::before{
+font-size:16px;
+}
+
+.about-page .about-cta h2{
+font-size:clamp(2rem, 3.2vw, 3.2rem) !important;
+}
+
+.about-page .about-cta-button{
+font-size:11.2px;
+}
+
+@media (max-width: 900px){
+.about-page .about-cta h2{
+font-size:2.4rem !important;
+}
+}
+
+.faq-intro h1{
+font-size:33.6px;
+}
+
+.faq-item summary span:first-child{
+font-size:22.4px;
+}
+
+.faq-icon{
+font-size:16px;
+}
+
+.faq-answer p{
+font-size:15.2px;
+}
+
+.faq-item .faq-icon{
+font-size:0;
+}
+
+.faq-item .faq-icon::after{
+font-size:16px;
+}
+
+.faq-cta h2{
+font-size:41.6px;
+}
+
+.faq-cta-button{
+font-size:11.2px;
+}
+
+@media (max-width: 900px){
+.faq-intro h1{
+font-size:30.4px;
+}
+}
+
+.booking-heading h1{
+font-size:clamp(3.2rem, 4.8vw, 4.96rem);
+}
+
+.booking-intro-text p{
+font-size:16px;
+}
+
+.booking-option-number{
+font-size:9.6px;
+}
+
+.booking-option h2{
+font-size:1.84rem;
+}
+
+.booking-option-duration{
+font-size:9.6px;
+}
+
+.booking-option > p:not(.booking-option-duration){
+font-size:15.2px;
+}
+
+.booking-option-button{
+font-size:11.2px;
+}
+
+.booking-option-button span{
+font-size:12.8px;
+}
+
+.booking-expect-heading h2{
+font-size:2.72rem;
+}
+
+.booking-expect-item h3{
+font-size:1.16rem;
+}
+
+.booking-expect-item p{
+font-size:14.4px;
+}
+
+.booking-note p{
+font-size:13.6px;
+}
+
+.booking-note a{
+font-size:9.6px;
+}
+
+.language-switcher{
+font-size:9.6px;
+}
+
+.resources-label{
+font-size:10.4px;
+}
+
+.resources-intro-heading h1{
+font-size:clamp(56px, 6.4vw, 96px);
+}
+
+.resources-intro-text p{
+font-size:16px;
+}
+
+.resource-card-meta{
+font-size:9.6px;
+}
+
+.resource-card-content h2{
+font-size:clamp(28.8px, 2.56vw, 41.6px);
+}
+
+.resource-card-content p{
+font-size:15.2px;
+}
+
+.resource-card-link{
+font-size:10.4px;
+}
+
+.resource-card-link span{
+font-size:14.4px;
+}
+
+.resources-cta-inner h2{
+font-size:clamp(48px, 5.6vw, 80px);
+}
+
+.resources-cta-inner p{
+font-size:16px;
+}
+
+.resources-cta-button{
+font-size:11.2px;
+}
+
+.resources-cta-button span{
+font-size:14.4px;
+}
+
+@media (max-width: 900px){
+.resources-intro-heading h1{
+font-size:clamp(52px, 13.6vw, 80px);
+}
+
+.resources-intro-text p{
+font-size:14.4px;
+}
+
+.resource-card-content h2{
+font-size:33.6px;
+}
+
+.resources-cta-inner h2{
+font-size:52px;
+}
+}
+
+.article-category{
+font-size:9.6px;
+}
+
+.article-hero h1{
+font-size:clamp(64px, 7.2vw, 116px);
+}
+
+.article-subtitle{
+font-size:17.6px;
+}
+
+.article-lead{
+font-size:20px !important;
+}
+
+.article-section h2{
+font-size:clamp(46.4px, 4.8vw, 70.4px);
+}
+
+.article-section h3{
+font-size:30.4px;
+}
+
+.article-section h4{
+font-size:25.6px;
+}
+
+.article-section p{
+font-size:16px;
+}
+
+.article-section li{
+font-size:16px;
+}
+
+.article-emphasis{
+font-size:16px !important;
+}
+
+.article-section blockquote{
+font-size:16px;
+}
+
+.article-quote-strong{
+font-size:20px !important;
+}
+
+.grief-stages span{
+font-size:9.6px;
+}
+
+.dual-process-grid h3{
+font-size:30.4px;
+}
+
+.dual-process-grid p{
+font-size:14.4px;
+}
+
+.article-tool h3{
+font-size:33.6px;
+}
+
+.article-support-note p{
+font-size:14.4px;
+}
+
+.article-final-emphasis{
+font-size:20px !important;
+}
+
+.article-cta h3{
+font-size:44px;
+}
+
+.article-cta p{
+font-size:15.2px;
+}
+
+.article-cta-button{
+font-size:11.2px;
+}
+
+.article-cta-button span{
+font-size:14.4px;
+}
+
+.article-author-label{
+font-size:9.6px;
+}
+
+.article-author h2{
+font-size:56px;
+}
+
+.article-author-role{
+font-size:12px !important;
+}
+
+.article-author-content > p{
+font-size:15.2px;
+}
+
+.article-author-link{
+font-size:10.4px;
+}
+
+.article-author-link span{
+font-size:14.4px;
+}
+
+.article-sources h2{
+font-size:44px;
+}
+
+.article-source p{
+font-size:13.6px;
+}
+
+@media (max-width: 900px){
+.article-hero h1{
+font-size:clamp(56px, 12vw, 88px);
+}
+
+.article-subtitle{
+font-size:15.2px;
+}
+
+.article-section h2{
+font-size:52px;
+}
+
+.article-section p,
+    .article-section li{
+font-size:13.6px;
+}
+
+.article-cta h3{
+font-size:38.4px;
+}
+}
+
+.article-page .article-section ul li::marker{
+font-size:0.56em;
+}
+
+.article-flow-box{
+font-size:0.84rem;
+}
+
+.article-flow-box span:nth-child(even){
+font-size:0.88rem;
+}
+
+.online-label{
+font-size:8px;
+}
+
+.online-hero h1{
+font-size:clamp(3.6rem, 4.8vw, 5.6rem);
+}
+
+.online-hero-text{
+font-size:16px;
+}
+
+.online-button,
+.online-cta-button{
+font-size:11.2px;
+}
+
+.online-button span,
+.online-cta-button span{
+font-size:12.8px;
+}
+
+.online-section-heading h2,
+.online-section-content h2{
+font-size:clamp(2.8rem, 4vw, 4.4rem);
+}
+
+.online-section-content p{
+font-size:15.2px;
+}
+
+.online-science h2{
+font-size:clamp(2.8rem, 4vw, 4.4rem);
+}
+
+.online-science p{
+font-size:15.2px;
+}
+
+.online-availability{
+font-size:8.8px;
+}
+
+.online-cta h2{
+font-size:clamp(2.8rem, 4vw, 4.4rem);
+}
+
+.online-cta p{
+font-size:15.2px;
+}
+}
