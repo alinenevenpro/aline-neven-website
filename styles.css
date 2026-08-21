@@ -94,7 +94,7 @@ body{
 
     color:white;
 
-    font-size:17px;
+    font-size:15.3px;
 
     font-weight:700;
 
@@ -127,7 +127,7 @@ nav a{
 
     text-decoration:none;
 
-    font-size:17px;
+    font-size:15.3px;
 
     font-weight:600;
 
@@ -160,7 +160,7 @@ nav a:hover{
 
     border-radius:999px;
 
-    font-size:15px;
+    font-size:13.5px;
 
     font-weight:600;
 
@@ -204,7 +204,7 @@ nav a:hover{
 
     font-family:'Bebas Neue',sans-serif;
 
-    font-size:clamp(5rem,10vw,8rem);
+    font-size:clamp(4.5rem,9vw,7.2rem);
 
     line-height:.88;
 
@@ -225,7 +225,7 @@ nav a:hover{
 
     margin:0 auto 45px;
 
-    font-size:20px;
+    font-size:18px;
 
     line-height:1.9;
 
@@ -249,7 +249,7 @@ nav a:hover{
 
     font-weight:600;
 
-    font-size:17px;
+    font-size:15.3px;
 
     padding:22px 55px;
 
@@ -338,13 +338,13 @@ nav a:hover{
 
     .hero-content h1{
 
-        font-size:4.8rem;
+        font-size:4.32rem;
 
     }
 
     .hero-content p{
 
-        font-size:18px;
+        font-size:16.2px;
 
         line-height:1.8;
 
@@ -427,7 +427,7 @@ nav a:hover{
 
     color:#25231f;
 
-    font-size:17px;
+    font-size:15.3px;
 
     font-weight:700;
 
@@ -478,7 +478,7 @@ nav a:hover{
 
     text-decoration:none;
 
-    font-size:17px;
+    font-size:15.3px;
 
     font-weight:400;
 
@@ -514,7 +514,7 @@ nav a:hover{
 
     border-radius:999px;
 
-    font-size:15px;
+    font-size:13.5px;
 
     font-weight:500;
 
@@ -572,7 +572,7 @@ nav a:hover{
 
     font-family:'Bebas Neue',sans-serif;
 
-    font-size:clamp(4rem,6vw,6rem);
+    font-size:clamp(3.6rem,5.4vw,5.4rem);
 
     line-height:.95;
 
@@ -595,7 +595,7 @@ nav a:hover{
 
     margin:0 auto;
 
-    font-size:19px;
+    font-size:17.1px;
 
     line-height:1.75;
 
@@ -773,7 +773,7 @@ nav a:hover{
 
     font-family:'Bebas Neue',sans-serif;
 
-    font-size:30px;
+    font-size:27px;
 
     font-weight:400;
 
@@ -802,7 +802,7 @@ nav a:hover{
 
     font-family:'Inter',sans-serif;
 
-    font-size:11px;
+    font-size:9.9px;
 
     font-weight:500;
 
@@ -915,7 +915,7 @@ nav a:hover{
 
     .work-card h2 {
 
-        font-size:27px;
+        font-size:24.3px;
 
     }
 
@@ -987,7 +987,7 @@ nav a:hover{
 
 .topic-label {
 
-    font-size:10px;
+    font-size:9px;
 
     font-weight:500;
 
@@ -1013,7 +1013,7 @@ nav a:hover{
 
     font-family:'Bebas Neue',sans-serif;
 
-    font-size:clamp(3.5rem,5vw,5.2rem);
+    font-size:clamp(3.15rem,4.5vw,4.68rem);
 
     font-weight:400;
 
@@ -1106,7 +1106,7 @@ nav a:hover{
 
 .topic-lead {
 
-    font-size:21px;
+    font-size:18.9px;
 
     line-height:1.75;
 
@@ -1125,7 +1125,7 @@ nav a:hover{
 
     font-family:'Inter',sans-serif;
 
-    font-size:18px;
+    font-size:16.2px;
 
     font-weight:600;
 
@@ -1153,7 +1153,7 @@ nav a:hover{
 
 .topic-text li {
 
-    font-size:19px;
+    font-size:17.1px;
 
     line-height:1.7;
 
@@ -1172,7 +1172,7 @@ nav a:hover{
 
 .topic-text > p:not(.topic-lead) {
 
-    font-size:19px;
+    font-size:17.1px;
 
     line-height:1.75;
 
@@ -1203,7 +1203,7 @@ nav a:hover{
 
     text-decoration:none;
 
-    font-size:14px;
+    font-size:12.6px;
 
     font-weight:500;
 
@@ -1221,7 +1221,7 @@ nav a:hover{
 
 .topic-button span {
 
-    font-size:16px;
+    font-size:14.4px;
 
     line-height:1;
 
@@ -1260,7 +1260,7 @@ nav a:hover{
 
     max-width: 850px;
 
-    font-size: 19px;
+    font-size:17.1px;
     line-height: 1.5;
 
     color: #77736c;
@@ -1277,14 +1277,14 @@ nav a:hover{
 
     text-decoration: none;
 
-    font-size: 14px;
+    font-size:12.6px;
     font-weight: 600;
 
     letter-spacing: 0.04em;
 }
 
 .topic-resource-link a span {
-    font-size: 17px;
+    font-size:15.3px;
 
     transition: transform 0.2s ease;
 }
@@ -1311,7 +1311,7 @@ nav a:hover{
     }
 
     .topic-resource-link p {
-        font-size: 15px;
+        font-size:13.5px;
     }
 
 }
@@ -1382,7 +1382,7 @@ nav a:hover{
 
     .topic-label {
 
-        font-size:9px;
+        font-size:8.1px;
 
         margin-bottom:10px;
 
@@ -1391,7 +1391,7 @@ nav a:hover{
 
     .topic-header h1 {
 
-        font-size:3.7rem;
+        font-size:3.33rem;
 
     }
 
@@ -1407,7 +1407,7 @@ nav a:hover{
 
     .topic-lead {
 
-        font-size:17px;
+        font-size:15.3px;
 
         line-height:1.7;
 
@@ -1416,7 +1416,7 @@ nav a:hover{
 
     .topic-text li {
 
-        font-size:15px;
+        font-size:13.5px;
 
     }
 
@@ -1471,7 +1471,7 @@ nav a:hover{
 
     font-family:'Bebas Neue',sans-serif;
 
-    font-size:clamp(3.3rem,4.6vw,5rem);
+    font-size:clamp(2.97rem,4.14vw,4.5rem);
 
     font-weight:400;
 
@@ -1497,7 +1497,7 @@ nav a:hover{
 
 .approach-intro-text p {
 
-    font-size:19px;
+    font-size:17.1px;
 
     line-height:1.75;
 
@@ -1568,7 +1568,7 @@ nav a:hover{
 
     font-family:'Bebas Neue',sans-serif;
 
-    font-size:3.2rem;
+    font-size:2.88rem;
 
     font-weight:400;
 
@@ -1594,7 +1594,7 @@ nav a:hover{
 
 .approach-method-text p {
 
-    font-size:19px;
+    font-size:17.1px;
 
     line-height:1.7;
 
@@ -1628,7 +1628,7 @@ nav a:hover{
 
     font-family:'Inter',sans-serif;
 
-    font-size:18px;
+    font-size:16.2px;
 
     font-weight:600;
 
@@ -1650,7 +1650,7 @@ nav a:hover{
 
 .approach-tools li {
 
-    font-size:18px;
+    font-size:16.2px;
 
     line-height:1.65;
 
@@ -1672,7 +1672,7 @@ nav a:hover{
 
 .approach-note {
 
-    font-size:17px;
+    font-size:15.3px;
 
     line-height:1.65;
 
@@ -1813,7 +1813,7 @@ nav a:hover{
 
     font-family:'Bebas Neue',sans-serif;
 
-    font-size:2rem;
+    font-size:1.8rem;
 
     font-weight:400;
 
@@ -1833,7 +1833,7 @@ nav a:hover{
 
 .approach-card-content p {
 
-    font-size:18px;
+    font-size:16.2px;
 
     line-height:1.7;
 
@@ -1893,7 +1893,7 @@ nav a:hover{
 
 .approach-card-content li {
 
-    font-size:18px;
+    font-size:16.2px;
 
     line-height:1.65;
 
@@ -1938,7 +1938,7 @@ nav a:hover{
 
     font-family:'Bebas Neue',sans-serif;
 
-    font-size:clamp(2.6rem,3.5vw,3.8rem);
+    font-size:clamp(2.34rem,3.15vw,3.42rem);
 
     font-weight:400;
 
@@ -1969,7 +1969,7 @@ nav a:hover{
 
     text-decoration:none;
 
-    font-size:14px;
+    font-size:12.6px;
 
     font-weight:500;
 
@@ -1987,7 +1987,7 @@ nav a:hover{
 
 .approach-cta-button span {
 
-    font-size:16px;
+    font-size:14.4px;
 
 }
 
@@ -2104,14 +2104,14 @@ nav a:hover{
 
     .approach-statement h1 {
 
-        font-size:3.7rem;
+        font-size:3.33rem;
 
     }
 
 
     .approach-intro-text p {
 
-        font-size:16px;
+        font-size:14.4px;
 
     }
 
@@ -2141,7 +2141,7 @@ nav a:hover{
 
     .approach-section-heading h2 {
 
-        font-size:3rem;
+        font-size:2.7rem;
 
     }
 
@@ -2205,7 +2205,7 @@ nav a:hover{
 
     .approach-cta h2 {
 
-        font-size:3.2rem;
+        font-size:2.88rem;
 
     }
 
@@ -2230,7 +2230,7 @@ nav a:hover{
 .approach-online-cta strong {
     font-family: 'Inter', sans-serif;
 
-    font-size: 12px;
+    font-size:10.8px;
     font-weight: 700;
 
     letter-spacing: .08em;
@@ -2249,7 +2249,7 @@ nav a:hover{
 .approach-online-cta > span {
     font-family: 'Inter', sans-serif;
 
-    font-size: 14px;
+    font-size:12.6px;
     line-height: 1.5;
 
     color: #68635c;
@@ -2330,7 +2330,7 @@ nav a:hover{
 .about-page .about-hero-overlay h1 {
     font-family: 'Bebas Neue', sans-serif;
 
-    font-size: clamp(2.7rem, 4vw, 4.4rem);
+    font-size:clamp(2.43rem, 3.6vw, 3.96rem);
 
     font-weight: 400;
 
@@ -2403,7 +2403,7 @@ nav a:hover{
 .about-page .about-meet-content h2 {
     font-family: 'Bebas Neue', sans-serif;
 
-    font-size: 2rem;
+    font-size:1.8rem;
     font-weight: 400;
 
     line-height: 1;
@@ -2422,7 +2422,7 @@ nav a:hover{
 .about-page .about-meet-content p {
     font-family: 'Inter', sans-serif;
 
-    font-size: 19px;
+    font-size:17.1px;
     font-weight: 400;
 
     line-height: 1.7;
@@ -2469,7 +2469,7 @@ nav a:hover{
 .about-page .about-difference-heading h2 {
     font-family: 'Bebas Neue', sans-serif !important;
 
-    font-size: 2.5rem !important;
+    font-size:2.25rem !important;
 
     font-weight: 400 !important;
 
@@ -2601,7 +2601,7 @@ nav a:hover{
 .about-page .about-difference-card h3 {
     font-family: 'Bebas Neue', sans-serif !important;
 
-    font-size: 2rem;
+    font-size:1.8rem;
 
     font-weight: 400 !important;
 
@@ -2628,7 +2628,7 @@ nav a:hover{
 
     font-family: 'Inter', sans-serif !important;
 
-    font-size: 18px;
+    font-size:16.2px;
 
     font-weight: 400 !important;
 
@@ -2673,7 +2673,7 @@ nav a:hover{
 .about-page .about-qualifications h2 {
     font-family: 'Bebas Neue', sans-serif !important;
 
-    font-size: 2.5rem !important;
+    font-size:2.25rem !important;
 
     font-weight: 400 !important;
 
@@ -2719,7 +2719,7 @@ nav a:hover{
 
     font-family: 'Inter', sans-serif !important;
 
-    font-size: 19px;
+    font-size:17.1px;
 
     font-weight: 400 !important;
 
@@ -2740,7 +2740,7 @@ nav a:hover{
 
     margin-right: 12px;
 
-    font-size: 20px;
+    font-size:18px;
 
     line-height: 1;
 
@@ -2791,7 +2791,7 @@ nav a:hover{
 .about-page .about-cta h2 {
     font-family: 'Bebas Neue', sans-serif !important;
 
-    font-size: clamp(2.5rem, 4vw, 4rem) !important;
+    font-size:clamp(2.25rem, 3.6vw, 3.6rem) !important;
 
     font-weight: 400 !important;
 
@@ -2830,7 +2830,7 @@ nav a:hover{
 
     font-family: 'Inter', sans-serif !important;
 
-    font-size:14px;
+    font-size:12.6px;
 
     font-weight: 500 !important;
 
@@ -2875,7 +2875,7 @@ nav a:hover{
 
 
     .about-page .about-cta h2 {
-        font-size: 3rem !important;
+        font-size:2.7rem !important;
     }
 
 }
@@ -2900,7 +2900,7 @@ nav a:hover{
     }
 
     .about-page .about-hero-overlay h1 {
-        font-size: 3rem;
+        font-size:2.7rem;
         line-height: .92;
         max-width: 100%;
     }
@@ -2936,12 +2936,12 @@ nav a:hover{
     }
 
     .about-page .about-meet-content h2 {
-        font-size: 2.3rem;
+        font-size:2.07rem;
         margin-bottom: 22px;
     }
 
     .about-page .about-meet-content p {
-        font-size: 16px;
+        font-size:14.4px;
         line-height: 1.7;
         margin-bottom: 18px;
     }
@@ -2967,7 +2967,7 @@ nav a:hover{
     }
 
     .about-page .about-difference-heading h2 {
-        font-size: 2.5rem !important;
+        font-size:2.25rem !important;
         line-height: .95 !important;
     }
 
@@ -2998,7 +2998,7 @@ nav a:hover{
     }
 
     .about-page .about-difference-card h3 {
-        font-size: 2rem;
+        font-size:1.8rem;
         line-height: 1 !important;
         margin: 0 0 22px !important;
     }
@@ -3006,7 +3006,7 @@ nav a:hover{
     .about-page .about-difference-card p {
         max-width: 500px;
         margin: 0 auto;
-        font-size: 16px;
+        font-size:14.4px;
         line-height: 1.7;
     }
 
@@ -3020,7 +3020,7 @@ nav a:hover{
     }
 
     .about-page .about-qualifications h2 {
-        font-size: 2.3rem !important;
+        font-size:2.07rem !important;
     }
 
     .about-page .about-qualifications ul {
@@ -3028,7 +3028,7 @@ nav a:hover{
     }
 
     .about-page .about-qualifications li {
-        font-size: 15px;
+        font-size:13.5px;
         line-height: 1.6;
     }
 
@@ -3050,7 +3050,7 @@ nav a:hover{
     }
 
     .about-page .about-cta h2 {
-        font-size: 2.8rem !important;
+        font-size:2.52rem !important;
     }
 
     .about-page .about-cta-button {
@@ -3102,7 +3102,7 @@ nav a:hover{
     margin: 0 0 45px;
 
     font-family: "Bebas Neue", sans-serif;
-    font-size: 42px;
+    font-size:37.8px;
     line-height: 0.95;
     font-weight: 400;
     letter-spacing: 0;
@@ -3181,7 +3181,7 @@ nav a:hover{
 
 .faq-item summary span:first-child {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 28px;
+    font-size:25.2px;
     line-height: 1.05;
     font-weight: 400;
     letter-spacing: 0;
@@ -3192,7 +3192,7 @@ nav a:hover{
     flex-shrink: 0;
 
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size:18px;
     font-weight: 300;
 
     width: 20px;
@@ -3213,7 +3213,7 @@ nav a:hover{
     margin: 0 0 20px;
 
     font-family: "Inter", sans-serif;
-    font-size: 19px;
+    font-size:17.1px;
     line-height: 1.65;
     font-weight: 400;
 }
@@ -3229,7 +3229,7 @@ nav a:hover{
 ====================================================== */
 
 .faq-item .faq-icon {
-    font-size: 0;
+    font-size:0;
 }
 
 
@@ -3237,7 +3237,7 @@ nav a:hover{
     content: "\002B";
 
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size:18px;
     font-weight: 300;
 }
 
@@ -3276,7 +3276,7 @@ nav a:hover{
     margin: 0;
 
     font-family: "Bebas Neue", sans-serif;
-    font-size: 52px;
+    font-size:46.8px;
     line-height: 0.95;
     font-weight: 400;
 }
@@ -3298,7 +3298,7 @@ nav a:hover{
     text-decoration: none;
 
     font-family: "Inter", sans-serif;
-    font-size:14px;
+    font-size:12.6px;
     font-weight: 500;
 
     transition: opacity 0.2s ease;
@@ -3337,7 +3337,7 @@ nav a:hover{
 
     .faq-intro h1 {
         margin: 0;
-        font-size: 38px;
+        font-size:34.2px;
     }
 
 
@@ -3374,7 +3374,7 @@ nav a:hover{
 
 
     .faq-intro h1 {
-        font-size: 36px;
+        font-size:32.4px;
         margin-bottom: 30px;
     }
 
@@ -3391,7 +3391,7 @@ nav a:hover{
 
 
     .faq-item summary span:first-child {
-        font-size: 21px;
+        font-size:18.9px;
     }
 
 
@@ -3402,7 +3402,7 @@ nav a:hover{
 
 
     .faq-answer p {
-        font-size: 16px;
+        font-size:14.4px;
     }
 
 
@@ -3412,7 +3412,7 @@ nav a:hover{
 
 
     .faq-cta h2 {
-        font-size: 42px;
+        font-size:37.8px;
     }
 
 
@@ -3461,7 +3461,7 @@ nav a:hover{
     margin: 0;
 
     font-family: "Bebas Neue", sans-serif;
-    font-size: clamp(4rem, 6vw, 6.2rem);
+    font-size:clamp(3.6rem, 5.4vw, 5.58rem);
     line-height: .88;
     font-weight: 400;
     letter-spacing: .02em;
@@ -3477,7 +3477,7 @@ nav a:hover{
     margin: 0 0 22px;
 
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size:18px;
     line-height: 1.7;
     font-weight: 400;
 
@@ -3531,7 +3531,7 @@ nav a:hover{
     margin-bottom: 28px;
 
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size:10.8px;
     font-weight: 500;
     letter-spacing: .08em;
 
@@ -3543,7 +3543,7 @@ nav a:hover{
     margin: 0 0 12px;
 
     font-family: "Bebas Neue", sans-serif;
-    font-size: 2.3rem;
+    font-size:2.07rem;
     line-height: .95;
     font-weight: 400;
     letter-spacing: .02em;
@@ -3554,7 +3554,7 @@ nav a:hover{
     margin: 0 0 28px;
 
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size:10.8px;
     font-weight: 500;
     letter-spacing: .07em;
 
@@ -3566,7 +3566,7 @@ nav a:hover{
     margin: 0 0 18px;
 
     font-family: "Inter", sans-serif;
-    font-size: 19px;
+    font-size:17.1px;
     line-height: 1.7;
     font-weight: 400;
 
@@ -3591,7 +3591,7 @@ nav a:hover{
     border-radius:999px;
 
     font-family: "Inter", sans-serif;
-    font-size:14px;
+    font-size:12.6px;
     font-weight: 500;
     letter-spacing: .04em;
 
@@ -3602,7 +3602,7 @@ nav a:hover{
 
 
 .booking-option-button span {
-    font-size: 16px;
+    font-size:14.4px;
 }
 
 
@@ -3639,7 +3639,7 @@ nav a:hover{
     margin: 0;
 
     font-family: "Bebas Neue", sans-serif;
-    font-size: 3.4rem;
+    font-size:3.06rem;
     line-height: .9;
     font-weight: 400;
     letter-spacing: .02em;
@@ -3658,7 +3658,7 @@ nav a:hover{
     margin: 0 0 15px;
 
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1.45rem;
+    font-size:1.3rem;
     line-height: 1;
     font-weight: 400;
 }
@@ -3668,7 +3668,7 @@ nav a:hover{
     margin: 0;
 
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size:16.2px;
     line-height: 1.7;
     font-weight: 400;
 
@@ -3701,7 +3701,7 @@ nav a:hover{
     margin: 0;
 
     font-family: "Inter", sans-serif;
-    font-size: 17px;
+    font-size:15.3px;
     line-height: 1.6;
 
     color: #817b72;
@@ -3712,7 +3712,7 @@ nav a:hover{
     flex-shrink: 0;
 
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size:10.8px;
     font-weight: 500;
     letter-spacing: .05em;
 
@@ -3777,12 +3777,12 @@ nav a:hover{
 
 
     .booking-heading h1 {
-        font-size: 4rem;
+        font-size:3.6rem;
     }
 
 
     .booking-intro-text p {
-        font-size: 16px;
+        font-size:14.4px;
     }
 
 
@@ -3806,7 +3806,7 @@ nav a:hover{
 
 
     .booking-option h2 {
-        font-size: 2.1rem;
+        font-size:1.89rem;
     }
 
 
@@ -3822,7 +3822,7 @@ nav a:hover{
 
 
     .booking-expect-heading h2 {
-        font-size: 3rem;
+        font-size:2.7rem;
     }
 
 
@@ -3859,7 +3859,7 @@ nav a:hover{
     margin-left: 48px;
     flex-shrink: 0;
     white-space: nowrap;
-    font-size: 12px;
+    font-size:10.8px;
     letter-spacing: 0.08em;
 }
 
@@ -3920,7 +3920,7 @@ nav a:hover{
 }
 
 .resources-label {
-    font-size: 13px;
+    font-size:11.7px;
     font-weight: 600;
     letter-spacing: 0.12em;
     margin-bottom: 25px;
@@ -3928,7 +3928,7 @@ nav a:hover{
 
 .resources-intro-heading h1 {
     font-family: "Bebas Neue", sans-serif;
-    font-size: clamp(70px, 8vw, 120px);
+    font-size:clamp(63px, 7.2vw, 108px);
     line-height: 0.88;
     font-weight: 400;
     margin: 0;
@@ -3940,7 +3940,7 @@ nav a:hover{
 }
 
 .resources-intro-text p {
-    font-size: 20px;
+    font-size:18px;
     line-height: 1.6;
     font-weight: 400;
     margin: 0;
@@ -4021,7 +4021,7 @@ nav a:hover{
     align-items: center;
     gap: 9px;
 
-    font-size: 12px;
+    font-size:10.8px;
     font-weight: 600;
     letter-spacing: 0.12em;
 
@@ -4031,7 +4031,7 @@ nav a:hover{
 .resource-card-content h2 {
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: clamp(36px, 3.2vw, 52px);
+    font-size:clamp(32.4px, 2.88vw, 46.8px);
     line-height: 0.95;
     font-weight: 400;
 
@@ -4044,7 +4044,7 @@ nav a:hover{
 }
 
 .resource-card-content p {
-    font-size: 19px;
+    font-size:17.1px;
     line-height: 1.65;
     margin: 0 0 25px;
 
@@ -4056,7 +4056,7 @@ nav a:hover{
     align-items: center;
     gap: 12px;
 
-    font-size: 13px;
+    font-size:11.7px;
     font-weight: 600;
     letter-spacing: 0.08em;
 
@@ -4065,7 +4065,7 @@ nav a:hover{
 }
 
 .resource-card-link span {
-    font-size: 18px;
+    font-size:16.2px;
 
     transition: transform 0.2s ease;
 }
@@ -4094,7 +4094,7 @@ nav a:hover{
 .resources-cta-inner h2 {
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: clamp(60px, 7vw, 100px);
+    font-size:clamp(54px, 6.3vw, 90px);
     line-height: 0.9;
     font-weight: 400;
 
@@ -4105,7 +4105,7 @@ nav a:hover{
     max-width: 600px;
     margin: 0 auto 35px;
 
-    font-size: 20px;
+    font-size:18px;
     line-height: 1.65;
 }
 
@@ -4121,7 +4121,7 @@ nav a:hover{
 
     text-decoration: none;
 
-    font-size:14px;
+    font-size:12.6px;
     font-weight: 600;
     letter-spacing: 0.05em;
 
@@ -4133,7 +4133,7 @@ nav a:hover{
 }
 
 .resources-cta-button span {
-    font-size: 18px;
+    font-size:16.2px;
 
     transition: transform 0.2s ease;
 }
@@ -4163,11 +4163,11 @@ nav a:hover{
     }
 
     .resources-intro-heading h1 {
-        font-size: clamp(65px, 17vw, 100px);
+        font-size:clamp(58.5px, 15.3vw, 90px);
     }
 
     .resources-intro-text p {
-        font-size: 18px;
+        font-size:16.2px;
     }
 
 
@@ -4187,7 +4187,7 @@ nav a:hover{
     }
 
     .resource-card-content h2 {
-        font-size: 42px;
+        font-size:37.8px;
     }
 
 
@@ -4196,7 +4196,7 @@ nav a:hover{
     }
 
     .resources-cta-inner h2 {
-        font-size: 65px;
+        font-size:58.5px;
     }
 
 }
@@ -4219,15 +4219,15 @@ nav a:hover{
     }
 
     .resources-intro-heading h1 {
-        font-size: 64px;
+        font-size:57.6px;
     }
 
     .resource-card-content h2 {
-        font-size: 38px;
+        font-size:34.2px;
     }
 
     .resources-cta-inner h2 {
-        font-size: 56px;
+        font-size:50.4px;
     }
 
 }
@@ -4286,7 +4286,7 @@ nav a:hover{
 }
 
 .article-category {
-    font-size: 12px;
+    font-size:10.8px;
     font-weight: 600;
     letter-spacing: 0.14em;
 
@@ -4296,7 +4296,7 @@ nav a:hover{
 .article-hero h1 {
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: clamp(80px, 9vw, 145px);
+    font-size:clamp(72px, 8.1vw, 130.5px);
 
     line-height: 0.84;
     font-weight: 400;
@@ -4307,7 +4307,7 @@ nav a:hover{
 .article-subtitle {
     max-width: 620px;
 
-    font-size: 22px;
+    font-size:19.8px;
     line-height: 1.5;
 
     margin: 0;
@@ -4368,7 +4368,7 @@ nav a:hover{
 }
 
 .article-lead {
-    font-size: 25px !important;
+    font-size:22.5px !important;
     line-height: 1.5 !important;
 }
 
@@ -4380,7 +4380,7 @@ nav a:hover{
 .article-section h2 {
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: clamp(58px, 6vw, 88px);
+    font-size:clamp(52.2px, 5.4vw, 79.2px);
 
     line-height: 0.9;
 
@@ -4392,7 +4392,7 @@ nav a:hover{
 .article-section h3 {
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: 38px;
+    font-size:34.2px;
 
     line-height: 1;
 
@@ -4404,7 +4404,7 @@ nav a:hover{
 .article-section h4 {
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: 32px;
+    font-size:28.8px;
 
     line-height: 1;
 
@@ -4414,7 +4414,7 @@ nav a:hover{
 }
 
 .article-section p {
-    font-size: 20px;
+    font-size:18px;
 
     line-height: 1.75;
 
@@ -4440,7 +4440,7 @@ nav a:hover{
 }
 
 .article-section li {
-    font-size: 20px;
+    font-size:18px;
     line-height: 1.7;
 
     margin-bottom: 9px;
@@ -4454,7 +4454,7 @@ nav a:hover{
 .article-emphasis {
     font-weight: 600;
 
-    font-size: 20px !important;
+    font-size:18px !important;
 
     margin-top: 35px !important;
 }
@@ -4502,7 +4502,7 @@ nav a:hover{
 
     border-left: 3px solid #253954;
 
-    font-size: 20px;
+    font-size:18px;
 
     line-height: 1.55;
 
@@ -4514,7 +4514,7 @@ nav a:hover{
 
     padding: 25px 0 !important;
 
-    font-size: 25px !important;
+    font-size:22.5px !important;
 
     font-weight: 600;
 
@@ -4545,7 +4545,7 @@ nav a:hover{
 }
 
 .grief-stages span {
-    font-size: 12px;
+    font-size:10.8px;
 
     font-weight: 600;
 
@@ -4576,7 +4576,7 @@ nav a:hover{
 .dual-process-grid h3 {
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: 38px;
+    font-size:34.2px;
 
     margin: 0 0 18px;
 }
@@ -4584,7 +4584,7 @@ nav a:hover{
 .dual-process-grid p {
     margin: 0;
 
-    font-size: 18px;
+    font-size:16.2px;
     line-height: 1.65;
 }
 
@@ -4606,7 +4606,7 @@ nav a:hover{
 .article-tool h3 {
     margin-top: 0;
 
-    font-size: 42px;
+    font-size:37.8px;
 }
 
 
@@ -4646,7 +4646,7 @@ nav a:hover{
 }
 
 .article-support-note p {
-    font-size: 18px;
+    font-size:16.2px;
     line-height: 1.65;
 }
 
@@ -4664,7 +4664,7 @@ nav a:hover{
 }
 
 .article-final-emphasis {
-    font-size: 25px !important;
+    font-size:22.5px !important;
 
     line-height: 1.5 !important;
 
@@ -4687,7 +4687,7 @@ nav a:hover{
 }
 
 .article-cta h3 {
-    font-size: 55px;
+    font-size:49.5px;
 
     margin-top: 0;
 
@@ -4697,7 +4697,7 @@ nav a:hover{
 .article-cta p {
     max-width: 650px;
 
-    font-size: 19px;
+    font-size:17.1px;
 
     line-height: 1.7;
 }
@@ -4719,7 +4719,7 @@ nav a:hover{
 
     text-decoration: none;
 
-    font-size:14px;
+    font-size:12.6px;
 
     font-weight: 600;
 
@@ -4732,7 +4732,7 @@ nav a:hover{
 }
 
 .article-cta-button span {
-    font-size: 18px;
+    font-size:16.2px;
 
     transition: transform 0.2s ease;
 }
@@ -4777,7 +4777,7 @@ nav a:hover{
 }
 
 .article-author-label {
-    font-size: 12px;
+    font-size:10.8px;
 
     font-weight: 600;
 
@@ -4789,7 +4789,7 @@ nav a:hover{
 .article-author h2 {
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: 70px;
+    font-size:63px;
 
     line-height: 0.9;
 
@@ -4797,7 +4797,7 @@ nav a:hover{
 }
 
 .article-author-role {
-    font-size: 15px !important;
+    font-size:13.5px !important;
 
     font-weight: 600;
 
@@ -4805,7 +4805,7 @@ nav a:hover{
 }
 
 .article-author-content > p {
-    font-size: 19px;
+    font-size:17.1px;
 
     line-height: 1.7;
 }
@@ -4823,7 +4823,7 @@ nav a:hover{
 
     text-decoration: none;
 
-    font-size: 13px;
+    font-size:11.7px;
 
     font-weight: 600;
 
@@ -4831,7 +4831,7 @@ nav a:hover{
 }
 
 .article-author-link span {
-    font-size: 18px;
+    font-size:16.2px;
 
     transition: transform 0.2s ease;
 }
@@ -4858,7 +4858,7 @@ nav a:hover{
 .article-sources h2 {
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: 55px;
+    font-size:49.5px;
 
     line-height: 0.95;
 
@@ -4878,7 +4878,7 @@ nav a:hover{
 }
 
 .article-source p {
-    font-size: 17px;
+    font-size:15.3px;
 
     line-height: 1.65;
 
@@ -4907,11 +4907,11 @@ nav a:hover{
     }
 
     .article-hero h1 {
-        font-size: clamp(70px, 15vw, 110px);
+        font-size:clamp(63px, 13.5vw, 99px);
     }
 
     .article-subtitle {
-        font-size: 19px;
+        font-size:17.1px;
     }
 
     .article-hero-image {
@@ -4930,14 +4930,14 @@ nav a:hover{
     }
 
     .article-section h2 {
-        font-size: 65px;
+        font-size:58.5px;
 
         margin-bottom: 35px;
     }
 
     .article-section p,
     .article-section li {
-        font-size: 17px;
+        font-size:15.3px;
     }
 
 
@@ -4958,7 +4958,7 @@ nav a:hover{
     }
 
     .article-cta h3 {
-        font-size: 48px;
+        font-size:43.2px;
     }
 
 
@@ -4985,20 +4985,20 @@ nav a:hover{
     }
 
     .article-section h2 {
-        font-size: 56px;
+        font-size:50.4px;
     }
 
     .article-section h3 {
-        font-size: 34px;
+        font-size:30.6px;
     }
 
     .article-section p,
     .article-section li {
-        font-size: 16px;
+        font-size:14.4px;
     }
 
     .article-lead {
-        font-size: 21px !important;
+        font-size:18.9px !important;
     }
 
     .article-image {
@@ -5013,7 +5013,7 @@ nav a:hover{
     }
 
     .grief-stages span {
-        font-size: 10px;
+        font-size:9px;
     }
 
 
@@ -5027,17 +5027,17 @@ nav a:hover{
     }
 
     .article-cta h3 {
-        font-size: 42px;
+        font-size:37.8px;
     }
 
 
     .article-author h2 {
-        font-size: 58px;
+        font-size:52.2px;
     }
 
 
     .article-sources h2 {
-        font-size: 48px;
+        font-size:43.2px;
     }
 
 }
@@ -5061,7 +5061,7 @@ nav a:hover{
 
 .article-page .article-section ul li::marker {
     color: #292929;
-    font-size: 0.7em;
+    font-size:0.63em;
 }
 /* ------------------------------------------------------
    ARTICLE CBT BOX FOR STAGES
@@ -5076,13 +5076,13 @@ nav a:hover{
     gap: 14px;
     flex-wrap: wrap;
 
-    font-size: 1.05rem;
+    font-size:0.95rem;
     font-weight: 600;
     letter-spacing: 0.02em;
 }
 
 .article-flow-box span:nth-child(even) {
-    font-size: 1.1rem;
+    font-size:0.99rem;
     font-weight: 400;
 }
 /* ==========================================================
@@ -5101,7 +5101,7 @@ nav a:hover{
 
 .online-label {
     font-family: 'Inter', sans-serif;
-    font-size: 10px;
+    font-size:9px;
     font-weight: 500;
     letter-spacing: .16em;
     text-transform: uppercase;
@@ -5136,7 +5136,7 @@ nav a:hover{
 .online-hero h1 {
     font-family: 'Bebas Neue', sans-serif;
 
-    font-size: clamp(4.5rem, 6vw, 7rem);
+    font-size:clamp(4.05rem, 5.4vw, 6.3rem);
 
     font-weight: 400;
     line-height: .88;
@@ -5152,7 +5152,7 @@ nav a:hover{
 
     font-family: 'Inter', sans-serif;
 
-    font-size: 20px;
+    font-size:18px;
     line-height: 1.7;
 
     color: #403d38;
@@ -5183,7 +5183,7 @@ nav a:hover{
 
     font-family: 'Inter', sans-serif;
 
-    font-size:14px;
+    font-size:12.6px;
     font-weight: 500;
 
     letter-spacing: .06em;
@@ -5199,7 +5199,7 @@ nav a:hover{
 
 .online-button span,
 .online-cta-button span {
-    font-size: 16px;
+    font-size:14.4px;
     line-height: 1;
 }
 
@@ -5274,7 +5274,7 @@ nav a:hover{
 .online-section-content h2 {
     font-family: 'Bebas Neue', sans-serif;
 
-    font-size: clamp(3.5rem, 5vw, 5.5rem);
+    font-size:clamp(3.15rem, 4.5vw, 4.95rem);
 
     font-weight: 400;
 
@@ -5298,7 +5298,7 @@ nav a:hover{
 .online-section-content p {
     font-family: 'Inter', sans-serif;
 
-    font-size: 19px;
+    font-size:17.1px;
 
     line-height: 1.75;
 
@@ -5410,7 +5410,7 @@ nav a:hover{
 .online-science h2 {
     font-family: 'Bebas Neue', sans-serif;
 
-    font-size: clamp(3.5rem, 5vw, 5.5rem);
+    font-size:clamp(3.15rem, 4.5vw, 4.95rem);
 
     font-weight: 400;
 
@@ -5429,7 +5429,7 @@ nav a:hover{
 
     font-family: 'Inter', sans-serif;
 
-    font-size: 19px;
+    font-size:17.1px;
 
     line-height: 1.75;
 
@@ -5506,7 +5506,7 @@ nav a:hover{
 
     font-family: 'Inter', sans-serif;
 
-    font-size: 11px;
+    font-size:9.9px;
 
     font-weight: 600;
 
@@ -5549,7 +5549,7 @@ nav a:hover{
 .online-cta h2 {
     font-family: 'Bebas Neue', sans-serif;
 
-    font-size: clamp(3.5rem, 5vw, 5.5rem);
+    font-size:clamp(3.15rem, 4.5vw, 4.95rem);
 
     font-weight: 400;
 
@@ -5566,7 +5566,7 @@ nav a:hover{
 
     font-family: 'Inter', sans-serif;
 
-    font-size: 19px;
+    font-size:17.1px;
 
     line-height: 1.7;
 
@@ -5656,14 +5656,14 @@ nav a:hover{
 
 
     .online-hero h1 {
-        font-size: 4rem;
+        font-size:3.6rem;
 
         line-height: .88;
     }
 
 
     .online-hero-text {
-        font-size: 15px;
+        font-size:13.5px;
 
         line-height: 1.7;
     }
@@ -5689,12 +5689,12 @@ nav a:hover{
 
     .online-section-heading h2,
     .online-section-content h2 {
-        font-size: 3.5rem;
+        font-size:3.15rem;
     }
 
 
     .online-section-content p {
-        font-size: 15px;
+        font-size:13.5px;
 
         line-height: 1.7;
     }
@@ -5725,12 +5725,12 @@ nav a:hover{
 
 
     .online-science h2 {
-        font-size: 3.5rem;
+        font-size:3.15rem;
     }
 
 
     .online-science p {
-        font-size: 15px;
+        font-size:13.5px;
 
         line-height: 1.7;
     }
@@ -5778,12 +5778,12 @@ nav a:hover{
 
 
     .online-cta h2 {
-        font-size: 3.5rem;
+        font-size:3.15rem;
     }
 
 
     .online-cta p {
-        font-size: 15px;
+        font-size:13.5px;
     }
 
 }
@@ -5999,7 +5999,7 @@ nav a:hover{
 
         font-family: "Inter", sans-serif;
 
-        font-size: 16px;
+        font-size:14.4px;
 
         font-weight: 500;
 
@@ -6031,7 +6031,7 @@ nav a:hover{
 
         text-decoration: none;
 
-        font-size: 13px;
+        font-size:11.7px;
 
         font-weight: 600;
 
@@ -6053,7 +6053,7 @@ nav a:hover{
 
         margin: 23px 0 0;
 
-        font-size: 12px;
+        font-size:10.8px;
 
         letter-spacing: 0.08em;
     }
@@ -6097,7 +6097,7 @@ nav a:hover{
     ------------------------------------------------------ */
 
     .logo {
-        font-size: 15px;
+        font-size:13.5px;
         letter-spacing: 0.16em;
     }
 
