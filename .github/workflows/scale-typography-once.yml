@@ -1,0 +1,60 @@
+name: Apply Global Typography Reduction
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  scale-typography:
+    if: "!contains(github.event.head_commit.message, 'Reduce global typography')"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Reduce existing font-size values by 10 percent
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("styles.css")
+          css = path.read_text(encoding="utf-8")
+          factor = 0.90
+
+          number_with_unit = re.compile(r"(-?\d+(?:\.\d+)?)(px|rem|em|vw|vh|vmin|vmax|ch|ex|cm|mm|in|pt|pc)")
+
+          def scale_value(match):
+              number = float(match.group(1))
+              unit = match.group(2)
+              scaled = number * factor
+              if scaled == 0:
+                  formatted = "0"
+              else:
+                  formatted = f"{scaled:.2f}".rstrip("0").rstrip(".")
+              return formatted + unit
+
+          def scale_font_size(match):
+              value = match.group(1)
+              return "font-size:" + number_with_unit.sub(scale_value, value) + ";"
+
+          updated = re.sub(r"font-size:\s*([^;]+);", scale_font_size, css)
+          path.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Remove temporary workflow
+        run: rm .github/workflows/scale-typography-once.yml
+
+      - name: Commit typography changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add styles.css .github/workflows/scale-typography-once.yml
+          git diff --cached --quiet && exit 0
+          git commit -m "Reduce global typography by 10 percent"
+          git push
